@@ -1,0 +1,31 @@
+import sqlite3
+import pandas as pd
+
+DB_PATH = r"C:/Hackathon Projects/SIH Project/bus_data.db"
+
+conn = sqlite3.connect(DB_PATH)
+cursor = conn.cursor()
+
+# Show all table names
+cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+print("Tables:", cursor.fetchall())
+
+# Show schema for main tables
+for table in ['vehicle_positions', 'routes', 'stops', 'trips', 'stop_times']:
+    try:
+        cursor.execute(f"PRAGMA table_info({table});")
+        columns = cursor.fetchall()
+        if columns:
+            print(f"\nSchema for {table}:")
+            for col in columns:
+                print(col)
+            # Show a few rows
+            print(f"First 3 rows from {table}:")
+            df = pd.read_sql(f"SELECT * FROM {table} LIMIT 3", conn)
+            print(df)
+        else:
+            print(f"No table named {table}")
+    except Exception as e:
+        print(f"Error with table {table}: {e}")
+
+conn.close()

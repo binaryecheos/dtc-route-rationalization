@@ -1,0 +1,1404 @@
+2025-09-13 06:47:05,699 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:05,701 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:05,701 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:05,701 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:05,701 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:05,701 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:05,701 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:05,702 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:05,702 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:05,702 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:05,704 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:47:06,004 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:47:06,806 - data.realtime_archiver - INFO - Fetched 1378 vehicle positions
+2025-09-13 06:47:06,809 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:06,809 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:06,809 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:06,809 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:06,811 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:06,811 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:06,811 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:06,811 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:06,811 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:06,811 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:06,811 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:47:09,653 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:09,653 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:09,653 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:09,653 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:09,653 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:09,655 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:09,655 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:09,655 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:09,655 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:09,655 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:09,655 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:47:16,627 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:47:17,208 - data.realtime_archiver - INFO - Fetched 1378 vehicle positions
+2025-09-13 06:47:17,217 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:17,222 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:17,224 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:17,226 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:17,227 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:17,229 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:17,230 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:17,232 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:17,232 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:17,236 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:17,236 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:47:19,414 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:47:19,999 - data.realtime_archiver - INFO - Fetched 1378 vehicle positions
+2025-09-13 06:47:20,251 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:20,252 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:20,253 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:20,253 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:20,255 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:20,255 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:20,257 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:20,258 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:20,259 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:20,260 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:20,261 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:47:39,513 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:47:45,705 - data.realtime_archiver - INFO - Fetched 1397 vehicle positions
+2025-09-13 06:47:45,735 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:47:45,735 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:47:45,735 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:47:45,735 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:47:45,735 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:47:45,735 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:47:45,735 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:47:45,735 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:47:45,735 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:47:45,735 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:47:45,735 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:48:09,514 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:48:11,565 - data.realtime_archiver - INFO - Fetched 1397 vehicle positions
+2025-09-13 06:48:11,846 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:48:11,847 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:48:11,848 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:48:11,850 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:48:11,850 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:48:11,851 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:48:11,851 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:48:11,854 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:48:11,855 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:48:11,858 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:48:11,858 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:48:39,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:48:39,800 - data.realtime_archiver - INFO - Fetched 1450 vehicle positions
+2025-09-13 06:48:40,088 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:48:40,091 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:48:40,092 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:48:40,096 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:48:40,098 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:48:40,107 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:48:40,109 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:48:40,111 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:48:40,111 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:48:40,113 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:48:40,115 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:49:07,874 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:49:08,237 - data.realtime_archiver - INFO - Fetched 1450 vehicle positions
+2025-09-13 06:49:08,238 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:49:08,240 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:49:08,240 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:49:08,240 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:49:08,240 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:49:08,240 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:49:08,240 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:49:08,240 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:49:08,242 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:49:08,242 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:08,242 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:49:38,534 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:49:39,086 - data.realtime_archiver - INFO - Fetched 1458 vehicle positions
+2025-09-13 06:49:39,089 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:49:39,089 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:49:39,089 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:49:39,089 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:49:39,089 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:49:39,091 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:49:39,091 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:49:39,091 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:49:39,091 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:49:39,091 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:39,091 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:50:39,332 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:50:39,332 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:50:39,332 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:50:39,332 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:50:39,332 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:50:39,332 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:50:39,333 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:50:39,333 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:50:39,333 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:50:39,333 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:50:39,333 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:50:41,496 - data.realtime_archiver - INFO - Fetched 1528 vehicle positions
+2025-09-13 06:50:41,499 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:50:41,499 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:50:41,499 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:50:41,500 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:50:41,500 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:50:41,500 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:50:41,500 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:50:41,501 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:50:41,501 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:50:41,501 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:50:41,501 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:51:09,524 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:51:09,835 - data.realtime_archiver - INFO - Fetched 1529 vehicle positions
+2025-09-13 06:51:09,837 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:51:09,838 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:51:09,838 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:51:09,838 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:51:09,838 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:51:09,838 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:51:09,838 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:51:09,838 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:51:09,840 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:51:09,840 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:51:09,840 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:51:39,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:51:39,833 - data.realtime_archiver - INFO - Fetched 1576 vehicle positions
+2025-09-13 06:51:39,856 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:51:39,858 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:51:39,861 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:51:39,862 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:51:39,868 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:51:39,870 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:51:39,871 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:51:39,878 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:51:39,880 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:51:39,880 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:51:39,881 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:52:09,509 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:52:09,795 - data.realtime_archiver - INFO - Fetched 390 vehicle positions
+2025-09-13 06:52:09,806 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:52:09,809 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:52:09,810 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:52:09,812 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:52:09,813 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:52:09,816 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:52:09,818 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:52:09,819 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:52:09,821 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:52:09,821 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:52:09,824 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:52:39,503 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:52:40,229 - data.realtime_archiver - INFO - Fetched 1576 vehicle positions
+2025-09-13 06:52:40,251 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:52:40,252 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:52:40,252 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:52:40,253 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:52:40,255 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:52:40,255 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:52:40,257 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:52:40,258 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:52:40,258 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:52:40,262 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:52:40,264 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:53:09,515 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:53:09,766 - data.realtime_archiver - INFO - Fetched 1599 vehicle positions
+2025-09-13 06:53:09,770 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:53:09,770 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:53:09,770 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:53:09,771 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:53:09,771 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:53:09,771 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:53:09,771 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:53:09,771 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:53:09,771 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:53:09,771 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:53:09,771 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:53:40,494 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:53:40,771 - data.realtime_archiver - INFO - Fetched 1601 vehicle positions
+2025-09-13 06:53:40,774 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:53:40,775 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:53:40,775 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:53:40,775 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:53:40,775 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:53:40,775 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:53:40,775 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:53:40,776 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:53:40,776 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:53:40,776 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:53:40,776 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:54:55,128 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:54:55,128 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:54:55,128 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:54:55,128 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:54:55,130 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:54:55,130 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:54:55,130 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:54:55,130 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:54:55,130 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:54:55,130 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:54:55,130 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:54:55,186 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:54:55,550 - data.realtime_archiver - INFO - Fetched 1625 vehicle positions
+2025-09-13 06:54:55,553 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:54:55,553 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:54:55,553 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:54:55,553 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:54:55,553 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:54:55,553 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:54:55,555 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:54:55,555 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:54:55,555 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:54:55,555 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:54:55,555 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:55:25,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:55:25,834 - data.realtime_archiver - INFO - Fetched 1630 vehicle positions
+2025-09-13 06:55:25,850 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:55:25,851 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:55:25,852 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:55:25,855 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:55:25,857 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:55:25,860 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:55:25,862 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:55:25,869 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:55:25,871 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:55:25,874 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:25,875 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:55:46,596 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:55:46,856 - data.realtime_archiver - INFO - Fetched 1630 vehicle positions
+2025-09-13 06:55:46,860 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:55:46,860 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:55:46,860 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:55:46,861 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:55:46,861 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:55:46,862 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:55:46,862 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:55:46,862 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:55:46,862 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:55:46,862 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:46,862 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:56:17,533 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:56:17,862 - data.realtime_archiver - INFO - Fetched 1574 vehicle positions
+2025-09-13 06:56:17,876 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:56:17,878 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:56:17,882 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:56:17,883 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:56:17,884 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:56:17,886 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:56:17,887 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:56:17,888 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:56:17,888 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:56:17,889 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:56:17,890 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:56:47,532 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:56:47,842 - data.realtime_archiver - INFO - Fetched 1575 vehicle positions
+2025-09-13 06:56:47,857 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:56:47,861 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:56:47,862 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:56:47,863 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:56:47,864 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:56:47,867 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:56:47,868 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:56:47,870 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:56:47,871 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:56:47,873 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:56:47,877 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:57:17,517 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:57:17,797 - data.realtime_archiver - INFO - Fetched 1537 vehicle positions
+2025-09-13 06:57:17,816 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:57:17,818 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:57:17,818 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:57:17,819 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:57:17,820 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:57:17,821 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:57:17,822 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:57:17,822 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:57:17,824 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:57:17,825 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:57:17,827 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:57:47,516 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:57:47,889 - data.realtime_archiver - INFO - Fetched 1537 vehicle positions
+2025-09-13 06:57:47,902 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:57:47,904 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:57:47,905 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:57:47,906 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:57:47,906 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:57:47,907 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:57:47,908 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:57:47,909 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:57:47,909 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:57:47,911 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:57:47,911 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:58:17,522 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:58:17,812 - data.realtime_archiver - INFO - Fetched 1563 vehicle positions
+2025-09-13 06:58:17,828 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:58:17,829 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:58:17,830 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:58:17,831 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:58:17,832 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:58:17,833 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:58:17,835 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:58:17,837 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:58:17,838 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:58:17,840 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:58:17,842 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:58:48,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:58:48,791 - data.realtime_archiver - INFO - Fetched 1563 vehicle positions
+2025-09-13 06:58:48,806 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:58:48,808 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:58:48,810 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:58:48,811 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:58:48,813 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:58:48,815 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:58:48,816 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:58:48,817 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:58:48,818 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:58:48,819 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:58:48,821 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 06:59:54,509 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:59:54,811 - data.realtime_archiver - INFO - Fetched 1576 vehicle positions
+2025-09-13 06:59:54,827 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:59:54,828 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:59:54,829 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:59:54,830 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 06:59:54,831 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 06:59:54,832 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 06:59:54,834 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 06:59:54,836 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 06:59:54,838 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 06:59:54,839 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:59:54,841 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:00:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:00:54,821 - data.realtime_archiver - INFO - Fetched 1582 vehicle positions
+2025-09-13 07:00:54,837 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:00:54,840 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:00:54,841 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:00:54,843 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:00:54,844 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:00:54,844 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:00:54,849 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:00:54,852 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:00:54,854 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:00:54,859 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:00:54,865 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:01:54,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:01:54,777 - data.realtime_archiver - INFO - Fetched 1432 vehicle positions
+2025-09-13 07:01:54,791 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:01:54,793 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:01:54,794 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:01:54,794 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:01:54,795 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:01:54,796 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:01:54,797 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:01:54,798 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:01:54,798 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:01:54,799 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:01:54,800 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:02:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:02:54,761 - data.realtime_archiver - INFO - Fetched 1298 vehicle positions
+2025-09-13 07:02:54,781 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:02:54,782 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:02:54,784 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:02:54,785 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:02:54,787 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:02:54,789 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:02:54,790 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:02:54,791 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:02:54,792 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:02:54,794 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:02:54,795 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:03:54,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:03:54,784 - data.realtime_archiver - INFO - Fetched 1322 vehicle positions
+2025-09-13 07:03:54,796 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:03:54,798 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:03:54,799 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:03:54,800 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:03:54,800 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:03:54,802 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:03:54,803 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:03:54,804 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:03:54,805 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:03:54,806 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:03:54,807 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:04:54,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:04:54,790 - data.realtime_archiver - INFO - Fetched 1345 vehicle positions
+2025-09-13 07:04:54,805 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:04:54,807 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:04:54,809 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:04:54,810 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:04:54,811 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:04:54,812 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:04:54,812 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:04:54,815 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:04:54,815 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:04:54,816 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:04:54,817 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:05:54,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:05:54,766 - data.realtime_archiver - INFO - Fetched 1353 vehicle positions
+2025-09-13 07:05:54,781 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:05:54,782 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:05:54,785 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:05:54,787 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:05:54,788 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:05:54,790 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:05:54,790 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:05:54,791 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:05:54,792 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:05:54,792 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:05:54,793 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:06:54,512 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:06:54,866 - data.realtime_archiver - INFO - Fetched 1577 vehicle positions
+2025-09-13 07:06:54,878 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:06:54,879 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:06:54,879 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:06:54,882 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:06:54,883 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:06:54,884 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:06:54,885 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:06:54,886 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:06:54,887 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:06:54,887 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:06:54,888 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:07:54,508 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:07:54,941 - data.realtime_archiver - INFO - Fetched 1780 vehicle positions
+2025-09-13 07:07:54,955 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:07:54,956 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:07:54,957 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:07:54,958 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:07:54,960 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:07:54,961 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:07:54,963 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:07:54,964 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:07:54,967 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:07:54,970 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:07:54,971 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:08:54,514 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:08:54,887 - data.realtime_archiver - INFO - Fetched 1800 vehicle positions
+2025-09-13 07:08:54,903 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:08:54,906 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:08:54,907 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:08:54,908 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:08:54,909 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:08:54,911 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:08:54,912 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:08:54,914 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:08:54,915 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:08:54,916 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:08:54,917 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:09:54,503 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:09:54,820 - data.realtime_archiver - INFO - Fetched 1819 vehicle positions
+2025-09-13 07:09:54,832 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:09:54,832 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:09:54,834 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:09:54,836 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:09:54,838 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:09:54,838 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:09:54,839 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:09:54,839 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:09:54,840 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:09:54,841 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:09:54,841 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:10:54,512 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:10:54,909 - data.realtime_archiver - INFO - Fetched 1826 vehicle positions
+2025-09-13 07:10:54,921 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:10:54,925 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:10:54,926 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:10:54,927 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:10:54,928 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:10:54,929 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:10:54,930 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:10:54,931 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:10:54,931 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:10:54,932 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:10:54,933 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:11:54,500 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:11:54,829 - data.realtime_archiver - INFO - Fetched 1778 vehicle positions
+2025-09-13 07:11:54,849 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:11:54,850 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:11:54,850 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:11:54,851 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:11:54,852 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:11:54,853 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:11:54,853 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:11:54,856 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:11:54,856 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:11:54,857 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:11:54,857 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:12:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:12:54,818 - data.realtime_archiver - INFO - Fetched 1760 vehicle positions
+2025-09-13 07:12:54,834 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:12:54,835 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:12:54,837 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:12:54,839 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:12:54,839 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:12:54,841 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:12:54,843 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:12:54,844 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:12:54,845 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:12:54,846 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:12:54,848 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:13:54,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:13:54,820 - data.realtime_archiver - INFO - Fetched 1786 vehicle positions
+2025-09-13 07:13:54,832 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:13:54,834 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:13:54,834 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:13:54,835 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:13:54,835 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:13:54,836 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:13:54,838 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:13:54,840 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:13:54,841 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:13:54,842 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:13:54,842 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:14:54,502 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:14:54,842 - data.realtime_archiver - INFO - Fetched 1795 vehicle positions
+2025-09-13 07:14:54,865 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:14:54,866 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:14:54,867 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:14:54,869 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:14:54,870 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:14:54,872 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:14:54,875 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:14:54,877 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:14:54,878 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:14:54,881 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:14:54,883 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:15:54,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:15:54,827 - data.realtime_archiver - INFO - Fetched 1798 vehicle positions
+2025-09-13 07:15:54,841 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:15:54,842 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:15:54,844 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:15:54,846 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:15:54,847 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:15:54,849 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:15:54,851 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:15:54,852 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:15:54,853 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:15:54,854 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:15:54,856 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:16:54,502 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:16:54,984 - data.realtime_archiver - INFO - Fetched 1812 vehicle positions
+2025-09-13 07:16:54,999 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:16:55,000 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:16:55,001 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:16:55,002 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:16:55,004 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:16:55,007 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:16:55,008 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:16:55,009 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:16:55,010 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:16:55,010 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:16:55,011 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:17:54,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:17:54,867 - data.realtime_archiver - INFO - Fetched 1845 vehicle positions
+2025-09-13 07:17:54,877 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:17:54,880 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:17:54,881 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:17:54,882 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:17:54,883 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:17:54,884 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:17:54,885 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:17:54,888 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:17:54,888 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:17:54,889 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:17:54,889 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:18:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:18:54,866 - data.realtime_archiver - INFO - Fetched 1861 vehicle positions
+2025-09-13 07:18:54,879 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:18:54,881 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:18:54,882 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:18:54,883 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:18:54,885 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:18:54,886 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:18:54,888 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:18:54,889 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:18:54,890 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:18:54,891 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:18:54,892 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:19:54,498 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:19:54,813 - data.realtime_archiver - INFO - Fetched 1864 vehicle positions
+2025-09-13 07:19:54,828 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:19:54,829 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:19:54,830 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:19:54,831 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:19:54,832 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:19:54,833 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:19:54,834 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:19:54,836 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:19:54,837 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:19:54,838 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:19:54,839 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:20:54,501 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:20:54,831 - data.realtime_archiver - INFO - Fetched 1920 vehicle positions
+2025-09-13 07:20:54,845 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:20:54,848 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:20:54,849 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:20:54,850 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:20:54,851 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:20:54,851 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:20:54,852 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:20:54,854 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:20:54,855 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:20:54,856 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:20:54,857 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:21:54,503 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:21:54,821 - data.realtime_archiver - INFO - Fetched 1968 vehicle positions
+2025-09-13 07:21:54,839 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:21:54,840 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:21:54,841 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:21:54,842 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:21:54,842 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:21:54,843 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:21:54,843 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:21:54,844 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:21:54,845 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:21:54,847 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:21:54,847 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:22:54,503 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:22:54,807 - data.realtime_archiver - INFO - Fetched 1986 vehicle positions
+2025-09-13 07:22:54,823 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:22:54,825 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:22:54,826 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:22:54,827 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:22:54,828 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:22:54,830 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:22:54,830 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:22:54,832 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:22:54,833 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:22:54,834 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:22:54,835 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:23:54,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:23:54,847 - data.realtime_archiver - INFO - Fetched 2001 vehicle positions
+2025-09-13 07:23:54,869 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:23:54,872 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:23:54,873 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:23:54,880 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:23:54,881 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:23:54,881 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:23:54,885 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:23:54,892 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:23:54,892 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:23:54,893 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:23:54,894 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:24:54,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:24:54,833 - data.realtime_archiver - INFO - Fetched 2003 vehicle positions
+2025-09-13 07:24:54,856 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:24:54,858 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:24:54,860 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:24:54,861 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:24:54,862 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:24:54,863 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:24:54,865 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:24:54,871 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:24:54,874 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:24:54,876 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:24:54,877 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:25:54,501 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:25:54,812 - data.realtime_archiver - INFO - Fetched 2014 vehicle positions
+2025-09-13 07:25:54,825 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:25:54,826 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:25:54,827 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:25:54,828 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:25:54,829 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:25:54,830 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:25:54,831 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:25:54,834 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:25:54,835 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:25:54,836 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:25:54,837 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:26:54,508 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:26:54,857 - data.realtime_archiver - INFO - Fetched 2015 vehicle positions
+2025-09-13 07:26:54,870 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:26:54,871 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:26:54,872 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:26:54,873 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:26:54,874 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:26:54,875 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:26:54,878 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:26:54,880 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:26:54,880 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:26:54,881 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:26:54,882 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:27:54,503 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:27:55,264 - data.realtime_archiver - INFO - Fetched 2014 vehicle positions
+2025-09-13 07:27:55,280 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:27:55,281 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:27:55,282 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:27:55,283 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:27:55,284 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:27:55,285 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:27:55,286 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:27:55,288 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:27:55,288 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:27:55,289 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:27:55,290 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:28:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:28:54,889 - data.realtime_archiver - INFO - Fetched 2032 vehicle positions
+2025-09-13 07:28:54,902 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:28:54,903 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:28:54,903 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:28:54,905 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:28:54,906 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:28:54,907 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:28:54,908 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:28:54,911 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:28:54,912 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:28:54,913 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:28:54,914 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:29:54,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:29:54,864 - data.realtime_archiver - INFO - Fetched 2046 vehicle positions
+2025-09-13 07:29:54,878 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:29:54,883 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:29:54,884 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:29:54,885 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:29:54,886 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:29:54,889 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:29:54,890 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:29:54,892 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:29:54,892 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:29:54,893 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:29:54,894 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:30:54,508 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:30:54,906 - data.realtime_archiver - INFO - Fetched 2046 vehicle positions
+2025-09-13 07:30:54,919 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:30:54,921 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:30:54,922 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:30:54,922 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:30:54,924 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:30:54,925 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:30:54,926 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:30:54,929 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:30:54,930 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:30:54,931 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:30:54,932 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:31:54,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:31:54,850 - data.realtime_archiver - INFO - Fetched 2046 vehicle positions
+2025-09-13 07:31:54,868 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:31:54,872 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:31:54,873 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:31:54,874 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:31:54,876 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:31:54,877 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:31:54,886 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:31:54,893 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:31:54,899 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:31:54,900 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:31:54,901 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:32:54,501 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:32:55,881 - data.realtime_archiver - INFO - Fetched 2046 vehicle positions
+2025-09-13 07:32:55,895 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:32:55,896 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:32:55,898 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:32:55,900 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:32:55,901 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:32:55,902 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:32:55,903 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:32:55,904 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:32:55,904 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:32:55,906 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:32:55,907 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:33:54,497 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:33:54,827 - data.realtime_archiver - INFO - Fetched 2022 vehicle positions
+2025-09-13 07:33:54,853 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:33:54,862 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:33:54,863 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:33:54,870 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:33:54,871 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:33:54,872 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:33:54,874 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:33:54,878 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:33:54,879 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:33:54,880 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:33:54,881 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:34:54,512 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:34:54,831 - data.realtime_archiver - INFO - Fetched 2024 vehicle positions
+2025-09-13 07:34:54,848 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:34:54,850 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:34:54,850 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:34:54,852 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:34:54,854 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:34:54,858 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:34:54,863 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:34:54,864 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:34:54,872 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:34:54,875 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:34:54,877 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:35:54,501 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:35:54,800 - data.realtime_archiver - INFO - Fetched 2023 vehicle positions
+2025-09-13 07:35:54,807 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:35:54,810 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:35:54,810 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:35:54,811 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:35:54,813 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:35:54,814 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:35:54,816 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:35:54,816 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:35:54,817 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:35:54,818 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:35:54,822 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:36:54,496 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:36:54,698 - data.realtime_archiver - INFO - Fetched 541 vehicle positions
+2025-09-13 07:36:54,714 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:36:54,717 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:36:54,721 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:36:54,722 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:36:54,724 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:36:54,727 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:36:54,729 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:36:54,731 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:36:54,735 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:36:54,736 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:36:54,739 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:37:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:37:54,889 - data.realtime_archiver - INFO - Fetched 2055 vehicle positions
+2025-09-13 07:37:54,902 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:37:54,903 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:37:54,904 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:37:54,906 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:37:54,908 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:37:54,910 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:37:54,911 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:37:54,913 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:37:54,918 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:37:54,919 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:37:54,921 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:38:54,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:38:54,858 - data.realtime_archiver - INFO - Fetched 2071 vehicle positions
+2025-09-13 07:38:54,871 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:38:54,875 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:38:54,876 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:38:54,877 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:38:54,878 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:38:54,879 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:38:54,880 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:38:54,883 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:38:54,891 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:38:54,894 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:38:54,895 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:39:54,501 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:39:55,032 - data.realtime_archiver - INFO - Fetched 2069 vehicle positions
+2025-09-13 07:39:55,052 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:39:55,054 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:39:55,058 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:39:55,059 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:39:55,062 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:39:55,067 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:39:55,069 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:39:55,072 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:39:55,073 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:39:55,074 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:39:55,077 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:40:54,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:40:54,859 - data.realtime_archiver - INFO - Fetched 2141 vehicle positions
+2025-09-13 07:40:54,872 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:40:54,873 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:40:54,875 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:40:54,876 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:40:54,877 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:40:54,878 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:40:54,879 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:40:54,880 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:40:54,885 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:40:54,887 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:40:54,888 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:41:54,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:41:54,830 - data.realtime_archiver - INFO - Fetched 2139 vehicle positions
+2025-09-13 07:41:54,851 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:41:54,852 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:41:54,856 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:41:54,858 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:41:54,863 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:41:54,865 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:41:54,873 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:41:54,875 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:41:54,876 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:41:54,877 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:41:54,878 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:42:54,514 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:42:54,882 - data.realtime_archiver - INFO - Fetched 2172 vehicle positions
+2025-09-13 07:42:54,907 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:42:54,911 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:42:54,914 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:42:54,916 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:42:54,918 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:42:54,921 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:42:54,924 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:42:54,927 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:42:54,929 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:42:54,931 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:42:54,933 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:43:54,517 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:43:54,706 - data.realtime_archiver - INFO - Fetched 61 vehicle positions
+2025-09-13 07:43:54,718 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:43:54,722 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:43:54,723 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:43:54,724 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:43:54,726 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:43:54,731 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:43:54,733 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:43:54,735 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:43:54,736 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:43:54,737 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:43:54,738 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:44:54,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:44:54,830 - data.realtime_archiver - INFO - Fetched 2211 vehicle positions
+2025-09-13 07:44:54,846 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:44:54,848 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:44:54,850 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:44:54,851 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:44:54,851 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:44:54,854 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:44:54,856 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:44:54,857 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:44:54,865 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:44:54,867 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:44:54,869 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:45:54,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:45:54,859 - data.realtime_archiver - INFO - Fetched 2215 vehicle positions
+2025-09-13 07:45:54,874 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:45:54,875 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:45:54,876 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:45:54,877 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:45:54,883 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:45:54,885 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:45:54,886 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:45:54,893 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:45:54,898 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:45:54,899 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:45:54,901 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:46:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:46:54,864 - data.realtime_archiver - INFO - Fetched 1941 vehicle positions
+2025-09-13 07:46:54,877 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:46:54,878 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:46:54,880 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:46:54,883 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:46:54,884 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:46:54,885 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:46:54,885 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:46:54,887 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:46:54,887 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:46:54,888 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:46:54,888 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:47:18,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:47:18,829 - data.realtime_archiver - INFO - Fetched 1709 vehicle positions
+2025-09-13 07:47:18,841 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:47:18,842 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:47:18,843 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:47:18,845 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:47:18,846 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:47:18,847 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:47:18,849 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:47:18,854 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:47:18,858 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:47:18,859 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:47:18,860 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:47:43,652 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:47:43,652 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:47:43,653 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:47:43,653 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:47:43,653 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:47:43,653 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:47:43,653 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:47:43,653 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:47:43,653 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:47:43,653 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:47:43,653 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:47:46,870 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:47:46,870 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:47:46,870 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:47:46,870 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:47:46,870 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:47:46,871 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:47:46,871 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:47:46,871 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:47:46,871 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:47:46,871 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:47:46,871 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:48:16,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:48:16,881 - data.realtime_archiver - INFO - Fetched 1725 vehicle positions
+2025-09-13 07:48:16,884 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:48:16,884 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:48:16,884 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:48:16,884 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:48:16,885 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:48:16,885 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:48:16,885 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:48:16,885 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:48:16,885 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:48:16,885 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:48:16,885 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:48:46,509 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:48:46,795 - data.realtime_archiver - INFO - Fetched 1725 vehicle positions
+2025-09-13 07:48:46,798 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:48:46,798 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:48:46,799 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:48:46,799 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:48:46,799 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:48:46,799 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:48:46,799 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:48:46,799 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:48:46,800 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:48:46,800 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:48:46,800 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:49:13,413 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:49:13,414 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:49:13,414 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:49:13,414 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:49:13,414 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:49:13,414 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:49:13,414 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:49:13,414 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:49:13,414 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:49:13,414 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:49:13,415 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:49:43,495 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:49:43,731 - data.realtime_archiver - INFO - Fetched 1744 vehicle positions
+2025-09-13 07:49:43,734 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:49:43,734 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:49:43,734 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:49:43,734 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:49:43,735 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:49:43,735 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:49:43,735 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:49:43,735 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:49:43,735 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:49:43,735 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:49:43,735 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:50:06,389 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:50:06,391 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:50:06,391 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:50:06,391 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:50:06,391 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:50:06,391 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:50:06,391 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:50:06,391 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:50:06,391 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:50:06,391 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:50:06,391 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:50:36,543 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:50:36,892 - data.realtime_archiver - INFO - Fetched 1745 vehicle positions
+2025-09-13 07:50:36,894 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:50:36,894 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:50:36,895 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:50:36,895 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:50:36,895 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:50:36,895 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:50:36,895 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:50:36,895 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:50:36,896 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:50:36,896 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:50:36,896 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:51:06,523 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:51:07,014 - data.realtime_archiver - INFO - Fetched 1742 vehicle positions
+2025-09-13 07:51:07,021 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:51:07,022 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:51:07,023 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:51:07,023 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:51:07,024 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:51:07,024 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:51:07,024 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:51:07,025 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:51:07,025 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:51:07,025 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:51:07,026 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:53:08,008 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:53:08,010 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:53:08,010 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:53:08,010 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:53:08,010 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:53:08,010 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:53:08,010 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:53:08,010 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:53:08,010 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:53:08,012 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:53:08,012 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:53:08,493 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:53:08,895 - data.realtime_archiver - INFO - Fetched 2201 vehicle positions
+2025-09-13 07:53:08,899 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:53:08,899 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:53:08,899 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:53:08,899 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:53:08,899 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:53:08,899 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:53:08,900 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:53:08,900 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:53:08,900 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:53:08,900 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:53:08,900 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:53:41,396 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:53:41,396 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:53:41,396 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:53:41,397 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:53:41,397 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:53:41,397 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:53:41,398 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:53:41,398 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:53:41,399 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:53:41,399 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:53:41,400 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:53:41,682 - data.realtime_archiver - INFO - Fetched 2199 vehicle positions
+2025-09-13 07:53:41,686 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:53:41,686 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:53:41,686 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:53:41,687 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:53:41,688 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:53:41,688 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:53:41,689 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:53:41,689 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:53:41,689 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:53:41,690 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:53:41,690 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:54:11,537 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:54:11,837 - data.realtime_archiver - INFO - Fetched 2218 vehicle positions
+2025-09-13 07:54:11,840 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:54:11,841 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:54:11,841 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:54:11,841 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:54:11,842 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:54:11,842 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:54:11,842 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:54:11,842 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:54:11,842 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:54:11,843 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:54:11,843 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:54:41,515 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:54:41,836 - data.realtime_archiver - INFO - Fetched 2218 vehicle positions
+2025-09-13 07:54:41,851 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:54:41,852 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:54:41,853 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:54:41,856 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:54:41,856 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:54:41,857 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:54:41,859 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:54:41,860 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:54:41,861 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:54:41,862 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:54:41,863 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:55:11,497 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:55:11,649 - data.realtime_archiver - INFO - Fetched 305 vehicle positions
+2025-09-13 07:55:11,652 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:55:11,652 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:55:11,653 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:55:11,653 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:55:11,653 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:55:11,653 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:55:11,653 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:55:11,654 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:55:11,654 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:55:11,654 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:55:11,654 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:55:41,495 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:55:41,778 - data.realtime_archiver - INFO - Fetched 2221 vehicle positions
+2025-09-13 07:55:41,780 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:55:41,780 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:55:41,781 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:55:41,781 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:55:41,781 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:55:41,781 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:55:41,781 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:55:41,781 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:55:41,781 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:55:41,781 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:55:41,781 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:56:11,509 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:56:11,819 - data.realtime_archiver - INFO - Fetched 2224 vehicle positions
+2025-09-13 07:56:11,822 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:56:11,822 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:56:11,823 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:56:11,823 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:56:11,823 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:56:11,823 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:56:11,824 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:56:11,824 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:56:11,824 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:56:11,824 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:56:11,824 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:56:42,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:56:42,836 - data.realtime_archiver - INFO - Fetched 2300 vehicle positions
+2025-09-13 07:56:42,847 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:56:42,848 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:56:42,849 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:56:42,852 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:56:42,863 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:56:42,864 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:56:42,870 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:56:42,871 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:56:42,873 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:56:42,873 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:56:42,876 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:57:54,500 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:57:54,850 - data.realtime_archiver - INFO - Fetched 2357 vehicle positions
+2025-09-13 07:57:54,863 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:57:54,865 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:57:54,866 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:57:54,866 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:57:54,867 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:57:54,870 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:57:54,873 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:57:54,876 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:57:54,877 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:57:54,878 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:57:54,880 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:58:54,497 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:58:54,771 - data.realtime_archiver - INFO - Fetched 2382 vehicle positions
+2025-09-13 07:58:54,773 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:58:54,774 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:58:54,774 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:58:54,774 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:58:54,774 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:58:54,774 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:58:54,774 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:58:54,774 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:58:54,775 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:58:54,775 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:58:54,775 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 07:59:54,527 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:59:54,909 - data.realtime_archiver - INFO - Fetched 2389 vehicle positions
+2025-09-13 07:59:54,930 - main - INFO - Bus Rationalization System initialized
+2025-09-13 07:59:54,936 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:59:54,938 - main - INFO - Evaluating baseline controller...
+2025-09-13 07:59:54,938 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 07:59:54,939 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 07:59:54,939 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 07:59:54,947 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 07:59:54,948 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 07:59:54,951 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 07:59:54,952 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:59:54,953 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:01:40,138 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:01:40,138 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:01:40,138 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:01:40,139 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:01:40,139 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:01:40,139 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:01:40,139 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:01:40,139 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:01:40,140 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:01:40,140 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:01:40,140 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:01:40,141 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:01:40,141 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:01:40,141 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:01:40,141 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:01:40,141 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:01:40,486 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:01:40,810 - data.realtime_archiver - INFO - Fetched 2086 vehicle positions
+2025-09-13 08:01:40,812 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:01:40,813 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:01:40,813 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:01:40,813 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:01:40,813 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:01:40,813 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:01:40,814 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:01:40,814 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:01:40,814 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:01:40,814 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:01:40,814 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:01:42,152 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:01:42,472 - data.realtime_archiver - INFO - Fetched 2086 vehicle positions
+2025-09-13 08:01:42,493 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:01:42,494 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:01:42,495 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:01:42,496 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:01:42,498 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:01:42,499 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:01:42,500 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:01:42,501 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:01:42,502 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:01:42,503 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:01:42,504 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:02:10,565 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:02:10,857 - data.realtime_archiver - INFO - Fetched 2088 vehicle positions
+2025-09-13 08:02:10,859 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:02:10,860 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:02:10,860 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:02:10,860 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:02:10,860 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:02:10,860 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:02:10,861 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:02:10,861 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:02:10,861 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:02:10,861 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:02:10,861 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:02:40,512 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:02:40,841 - data.realtime_archiver - INFO - Fetched 1825 vehicle positions
+2025-09-13 08:02:40,868 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:02:40,872 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:02:40,872 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:02:40,873 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:02:40,878 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:02:40,884 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:02:40,886 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:02:40,888 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:02:40,889 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:02:40,893 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:02:40,899 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:03:10,536 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:03:11,077 - data.realtime_archiver - INFO - Fetched 1825 vehicle positions
+2025-09-13 08:03:11,080 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:03:11,080 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:03:11,080 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:03:11,080 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:03:11,080 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:03:11,080 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:03:11,082 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:03:11,082 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:03:11,082 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:03:11,082 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:03:11,084 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:03:40,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:03:40,822 - data.realtime_archiver - INFO - Fetched 1844 vehicle positions
+2025-09-13 08:03:40,836 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:03:40,837 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:03:40,838 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:03:40,839 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:03:40,840 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:03:40,841 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:03:40,842 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:03:40,843 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:03:40,844 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:03:40,845 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:03:40,846 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:04:10,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:04:10,802 - data.realtime_archiver - INFO - Fetched 1844 vehicle positions
+2025-09-13 08:04:10,806 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:04:10,806 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:04:10,806 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:04:10,807 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:04:10,807 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:04:10,807 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:04:10,807 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:04:10,807 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:04:10,807 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:04:10,807 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:04:10,808 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:04:41,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:04:42,349 - data.realtime_archiver - INFO - Fetched 1487 vehicle positions
+2025-09-13 08:04:42,365 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:04:42,368 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:04:42,370 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:04:42,372 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:04:42,373 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:04:42,375 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:04:42,376 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:04:42,378 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:04:42,379 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:04:42,382 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:04:42,382 - main - ERROR - Phase 4 failed: list index out of range
+2025-09-13 08:05:54,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 08:05:54,784 - data.realtime_archiver - INFO - Fetched 1492 vehicle positions
+2025-09-13 08:05:54,797 - main - INFO - Bus Rationalization System initialized
+2025-09-13 08:05:54,800 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 08:05:54,800 - main - INFO - Evaluating baseline controller...
+2025-09-13 08:05:54,801 - data.gtfs_processor - ERROR - Required file stops.txt not found
+2025-09-13 08:05:54,801 - data.gtfs_processor - ERROR - Required file routes.txt not found
+2025-09-13 08:05:54,802 - data.gtfs_processor - ERROR - Required file trips.txt not found
+2025-09-13 08:05:54,805 - data.gtfs_processor - ERROR - Required file stop_times.txt not found
+2025-09-13 08:05:54,808 - data.gtfs_processor - WARNING - GTFSProcessor: Proceeded with mock data due to missing required files.
+2025-09-13 08:05:54,809 - main - ERROR - No real routes found in GTFS data.
+2025-09-13 08:05:54,810 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 08:05:54,815 - main - ERROR - Phase 4 failed: list index out of range

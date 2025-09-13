@@ -1,0 +1,1763 @@
+2025-09-13 03:04:57,946 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 03:04:57,946 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 03:04:57,946 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 03:04:57,946 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 03:04:57,977 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 03:04:57,977 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 03:04:57,987 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 03:04:57,989 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 03:04:57,989 - __main__ - INFO - Setting up traffic API...
+2025-09-13 03:04:57,989 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 03:04:57,989 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 03:04:58,134 - data.realtime_archiver - ERROR - Network error fetching real-time data: 401 Client Error: Unauthorized for url: https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=your_otd_api_key_herL5jVvGl6iLEdSqnZG42pEm5LD94t1PYF
+2025-09-13 03:04:59,990 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 03:04:59,990 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 03:04:59,990 - __main__ - INFO - Preparing training data...
+2025-09-13 03:05:00,003 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 03:05:00,004 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 03:05:00,004 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 03:05:00,004 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 03:05:00,004 - __main__ - INFO - Creating RL training environment...
+2025-09-13 03:05:00,009 - __main__ - INFO - Testing simulation environment...
+2025-09-13 03:05:00,009 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:05:00,014 - simulation.event_simulator - INFO - Simulation completed. 1243 events recorded
+2025-09-13 03:05:00,015 - __main__ - INFO - Simulation test results: {'mean_headway': 459.6453848347563, 'std_headway': 257.2099118285881, 'cv_headway': 0.5595833664707754, 'target_headway': 600, 'headway_adherence': 0.7660756413912606, 'bunching_events': 9, 'total_events': 1243, 'total_delays': 1680, 'avg_passenger_wait': 301.78788659272453}
+2025-09-13 03:05:00,015 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 03:05:00,016 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 03:05:00,016 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 03:05:00,016 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:05:00,020 - simulation.event_simulator - INFO - Simulation completed. 1291 events recorded
+2025-09-13 03:05:00,020 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 03:05:00,020 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:05:00,024 - simulation.event_simulator - INFO - Simulation completed. 1301 events recorded
+2025-09-13 03:05:00,024 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 03:05:00,024 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:05:00,028 - simulation.event_simulator - INFO - Simulation completed. 1287 events recorded
+2025-09-13 03:05:00,028 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 03:05:00,028 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 03:05:05,028 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 03:05:05,028 - __main__ - INFO - System cleanup completed
+2025-09-13 03:49:10,585 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 03:49:10,585 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 03:49:10,585 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 03:49:10,585 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 03:49:10,616 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 03:49:10,617 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 03:49:10,617 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 03:49:10,618 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 03:49:10,618 - __main__ - INFO - Setting up traffic API...
+2025-09-13 03:49:10,618 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 03:49:10,618 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 03:49:10,742 - data.realtime_archiver - ERROR - Network error fetching real-time data: 401 Client Error: Unauthorized for url: https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=your_otd_api_key_herL5jVvGl6iLEdSqnZG42pEm5LD94t1PYF
+2025-09-13 03:49:12,619 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 03:49:12,619 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 03:49:12,619 - __main__ - INFO - Preparing training data...
+2025-09-13 03:49:12,631 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 03:49:12,632 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 03:49:12,632 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 03:49:12,632 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 03:49:12,632 - __main__ - INFO - Creating RL training environment...
+2025-09-13 03:49:12,632 - __main__ - INFO - Testing simulation environment...
+2025-09-13 03:49:12,633 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:49:12,636 - simulation.event_simulator - INFO - Simulation completed. 1356 events recorded
+2025-09-13 03:49:12,636 - __main__ - INFO - Simulation test results: {'mean_headway': 417.8539209467224, 'std_headway': 206.57581841297255, 'cv_headway': 0.4943732918550538, 'target_headway': 600, 'headway_adherence': 0.6964232015778706, 'bunching_events': 10, 'total_events': 1356, 'total_delays': 1800, 'avg_passenger_wait': 259.98974415659774}
+2025-09-13 03:49:12,636 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 03:49:12,636 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 03:49:12,636 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 03:49:12,637 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:49:12,640 - simulation.event_simulator - INFO - Simulation completed. 1315 events recorded
+2025-09-13 03:49:12,640 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 03:49:12,640 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:49:12,643 - simulation.event_simulator - INFO - Simulation completed. 1267 events recorded
+2025-09-13 03:49:12,643 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 03:49:12,644 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 03:49:12,647 - simulation.event_simulator - INFO - Simulation completed. 1329 events recorded
+2025-09-13 03:49:12,647 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 03:49:12,647 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 03:49:17,657 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 03:49:17,658 - __main__ - INFO - System cleanup completed
+2025-09-13 04:00:50,052 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:00:50,053 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 04:00:50,053 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:00:50,053 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:00:50,084 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 04:00:50,084 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 04:00:50,085 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 04:00:50,085 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 04:00:50,085 - __main__ - INFO - Setting up traffic API...
+2025-09-13 04:00:50,086 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 04:00:50,086 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 04:00:50,190 - data.realtime_archiver - ERROR - Network error fetching real-time data: 401 Client Error: Unauthorized for url: https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=your_otd_api_key_herL5jVvGl6iLEdSqnZG42pEm5LD94t1PYF
+2025-09-13 04:00:52,087 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:00:52,087 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:00:52,087 - __main__ - INFO - Preparing training data...
+2025-09-13 04:00:52,106 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 04:00:52,107 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 04:00:52,107 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:00:52,107 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:00:52,107 - __main__ - INFO - Creating RL training environment...
+2025-09-13 04:00:52,107 - __main__ - INFO - Testing simulation environment...
+2025-09-13 04:00:52,108 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:00:52,111 - simulation.event_simulator - INFO - Simulation completed. 1323 events recorded
+2025-09-13 04:00:52,111 - __main__ - INFO - Simulation test results: {'mean_headway': 452.7295821268275, 'std_headway': 286.3340951900882, 'cv_headway': 0.6324616426542118, 'target_headway': 600, 'headway_adherence': 0.7545493035447125, 'bunching_events': 9, 'total_events': 1323, 'total_delays': 1680, 'avg_passenger_wait': 316.9124571593291}
+2025-09-13 04:00:52,111 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 04:00:52,111 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:00:52,111 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:00:52,111 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:00:52,115 - simulation.event_simulator - INFO - Simulation completed. 1296 events recorded
+2025-09-13 04:00:52,115 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 04:00:52,116 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:00:52,118 - simulation.event_simulator - INFO - Simulation completed. 1326 events recorded
+2025-09-13 04:00:52,119 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 04:00:52,119 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:00:52,122 - simulation.event_simulator - INFO - Simulation completed. 1300 events recorded
+2025-09-13 04:00:52,122 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 04:00:52,122 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 04:00:57,137 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 04:00:57,137 - __main__ - INFO - System cleanup completed
+2025-09-13 04:06:34,684 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:06:34,685 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 04:06:34,685 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:06:34,685 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:06:34,709 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 04:06:34,710 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 04:06:34,711 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 04:06:34,711 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 04:06:34,711 - __main__ - INFO - Setting up traffic API...
+2025-09-13 04:06:34,712 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 04:06:34,712 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 04:06:34,831 - data.realtime_archiver - INFO - Fetched 74 vehicle positions
+2025-09-13 04:06:34,838 - data.realtime_archiver - INFO - Saved 74 positions to database
+2025-09-13 04:06:36,713 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:06:36,713 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:06:36,713 - __main__ - INFO - Preparing training data...
+2025-09-13 04:06:36,725 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 04:06:36,725 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 04:06:36,725 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:06:36,725 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:06:36,726 - __main__ - INFO - Creating RL training environment...
+2025-09-13 04:06:36,726 - __main__ - INFO - Testing simulation environment...
+2025-09-13 04:06:36,726 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:06:36,730 - simulation.event_simulator - INFO - Simulation completed. 1322 events recorded
+2025-09-13 04:06:36,730 - __main__ - INFO - Simulation test results: {'mean_headway': 432.9991715535418, 'std_headway': 270.9676341710287, 'cv_headway': 0.6257925002462104, 'target_headway': 600, 'headway_adherence': 0.7216652859225697, 'bunching_events': 13, 'total_events': 1322, 'total_delays': 1680, 'avg_passenger_wait': 301.28434241361526}
+2025-09-13 04:06:36,730 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 04:06:36,730 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:06:36,730 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:06:36,731 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:06:36,734 - simulation.event_simulator - INFO - Simulation completed. 1327 events recorded
+2025-09-13 04:06:36,734 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 04:06:36,734 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:06:36,737 - simulation.event_simulator - INFO - Simulation completed. 1316 events recorded
+2025-09-13 04:06:36,737 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 04:06:36,738 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:06:36,741 - simulation.event_simulator - INFO - Simulation completed. 1297 events recorded
+2025-09-13 04:06:36,741 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 04:06:36,741 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 04:06:41,742 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 04:06:41,742 - __main__ - INFO - System cleanup completed
+2025-09-13 04:09:33,586 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:09:33,586 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 04:09:33,586 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:09:33,586 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:09:33,618 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 04:09:33,618 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 04:09:33,619 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 04:09:33,620 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 04:09:33,620 - __main__ - INFO - Setting up traffic API...
+2025-09-13 04:09:33,620 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 04:09:33,620 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 04:09:34,372 - data.realtime_archiver - INFO - Fetched 77 vehicle positions
+2025-09-13 04:09:34,382 - data.realtime_archiver - INFO - Saved 77 positions to database
+2025-09-13 04:09:35,621 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:09:35,621 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:09:35,621 - __main__ - INFO - Preparing training data...
+2025-09-13 04:09:35,643 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 04:09:35,643 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 04:09:35,643 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:09:35,643 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:09:35,643 - __main__ - INFO - Creating RL training environment...
+2025-09-13 04:09:35,644 - __main__ - INFO - Testing simulation environment...
+2025-09-13 04:09:35,644 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:09:35,647 - simulation.event_simulator - INFO - Simulation completed. 1316 events recorded
+2025-09-13 04:09:35,648 - __main__ - INFO - Simulation test results: {'mean_headway': 466.37139986693813, 'std_headway': 231.34255662036279, 'cv_headway': 0.49604790663914605, 'target_headway': 600, 'headway_adherence': 0.7772856664448968, 'bunching_events': 8, 'total_events': 1316, 'total_delays': 1680, 'avg_passenger_wait': 290.5641953975086}
+2025-09-13 04:09:35,648 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 04:09:35,648 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:09:35,648 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:09:35,648 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:09:35,652 - simulation.event_simulator - INFO - Simulation completed. 1300 events recorded
+2025-09-13 04:09:35,652 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 04:09:35,653 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:09:35,655 - simulation.event_simulator - INFO - Simulation completed. 1369 events recorded
+2025-09-13 04:09:35,655 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 04:09:35,656 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:09:35,659 - simulation.event_simulator - INFO - Simulation completed. 1272 events recorded
+2025-09-13 04:09:35,659 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 04:09:35,659 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 04:09:40,667 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 04:09:40,668 - __main__ - INFO - System cleanup completed
+2025-09-13 04:36:36,296 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:36:36,296 - __main__ - INFO - Starting complete bus rationalization pipeline
+2025-09-13 04:36:36,296 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:36:36,296 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:36:36,308 - data.gtfs_processor - INFO - GTFS data saved to database
+2025-09-13 04:36:36,308 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 04:36:36,322 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 04:36:36,323 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 04:36:36,323 - __main__ - INFO - Setting up traffic API...
+2025-09-13 04:36:36,323 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 04:36:36,323 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 04:36:36,447 - data.realtime_archiver - INFO - Fetched 105 vehicle positions
+2025-09-13 04:36:36,450 - data.realtime_archiver - INFO - Saved 105 positions to database
+2025-09-13 04:36:38,324 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:36:38,324 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:36:38,324 - __main__ - INFO - Preparing training data...
+2025-09-13 04:36:38,336 - __main__ - INFO - Created 1000 synthetic data records
+2025-09-13 04:36:38,336 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 04:36:38,336 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:36:38,336 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:36:38,338 - __main__ - INFO - Creating RL training environment...
+2025-09-13 04:36:38,338 - __main__ - INFO - Testing simulation environment...
+2025-09-13 04:36:38,338 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:36:38,342 - simulation.event_simulator - INFO - Simulation completed. 1298 events recorded
+2025-09-13 04:36:38,342 - __main__ - INFO - Simulation test results: {'mean_headway': 431.2033811364007, 'std_headway': 216.40394303300153, 'cv_headway': 0.5018604966934325, 'target_headway': 600, 'headway_adherence': 0.7186723018940011, 'bunching_events': 11, 'total_events': 1298, 'total_delays': 1860, 'avg_passenger_wait': 269.90398573668006}
+2025-09-13 04:36:38,342 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 04:36:38,342 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:36:38,342 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:36:38,343 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:36:38,345 - simulation.event_simulator - INFO - Simulation completed. 1336 events recorded
+2025-09-13 04:36:38,346 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 04:36:38,346 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:36:38,349 - simulation.event_simulator - INFO - Simulation completed. 1221 events recorded
+2025-09-13 04:36:38,349 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 04:36:38,350 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 04:36:38,353 - simulation.event_simulator - INFO - Simulation completed. 1332 events recorded
+2025-09-13 04:36:38,353 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 04:36:38,353 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 04:36:43,364 - data.realtime_archiver - INFO - Real-time data archiving stopped
+2025-09-13 04:36:43,364 - __main__ - INFO - System cleanup completed
+2025-09-13 04:56:07,113 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:56:07,114 - __main__ - INFO - System cleanup completed
+2025-09-13 04:57:01,049 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:57:01,049 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:57:01,049 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:57:01,049 - __main__ - ERROR - Phase 1 failed: 'BusRationalizationSystem' object has no attribute '_create_mock_gtfs_data'
+2025-09-13 04:57:01,049 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:57:01,049 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:57:01,049 - __main__ - INFO - Preparing training data...
+2025-09-13 04:57:01,049 - __main__ - ERROR - Phase 2 failed: 'BusRationalizationSystem' object has no attribute '_create_synthetic_ml_data'
+2025-09-13 04:57:01,049 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:57:01,050 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:57:01,050 - __main__ - ERROR - Phase 3 failed: 'BusRationalizationSystem' object has no attribute '_get_demo_route_config'
+2025-09-13 04:57:01,050 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:57:01,050 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:57:01,050 - __main__ - ERROR - Phase 4 failed: 'BusRationalizationSystem' object has no attribute '_get_demo_route_config'
+2025-09-13 04:58:35,251 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 04:58:35,251 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 04:58:35,251 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 04:58:35,251 - __main__ - ERROR - Phase 1 failed: 'BusRationalizationSystem' object has no attribute '_create_mock_gtfs_data'
+2025-09-13 04:58:35,251 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 04:58:35,251 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 04:58:35,251 - __main__ - INFO - Preparing training data...
+2025-09-13 04:58:35,251 - __main__ - ERROR - Phase 2 failed: 'BusRationalizationSystem' object has no attribute '_create_synthetic_ml_data'
+2025-09-13 04:58:35,251 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 04:58:35,252 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 04:58:35,254 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 04:58:35,254 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 04:58:35,257 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 04:58:35,329 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 04:58:35,334 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 04:58:35,335 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 04:58:35,335 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 04:58:35,358 - __main__ - INFO - Creating RL training environment...
+2025-09-13 04:58:35,358 - __main__ - INFO - Testing simulation environment...
+2025-09-13 04:58:35,358 - __main__ - ERROR - Phase 3 failed: 'EventDrivenTransitSimulator' object has no attribute '_passenger_arrival_process'
+2025-09-13 04:58:35,359 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 04:58:35,359 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 04:58:35,362 - __main__ - ERROR - Phase 4 failed: 'EventDrivenTransitSimulator' object has no attribute '_passenger_arrival_process'
+2025-09-13 05:01:12,460 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 05:01:12,460 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 05:01:12,460 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 05:01:12,460 - __main__ - ERROR - Phase 1 failed: 'BusRationalizationSystem' object has no attribute '_create_mock_gtfs_data'
+2025-09-13 05:01:12,461 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 05:01:12,461 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 05:01:12,461 - __main__ - INFO - Preparing training data...
+2025-09-13 05:01:12,461 - __main__ - ERROR - Phase 2 failed: 'BusRationalizationSystem' object has no attribute '_create_synthetic_ml_data'
+2025-09-13 05:01:12,461 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 05:01:12,461 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 05:01:12,462 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 05:01:12,464 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 05:01:12,466 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 05:01:12,541 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 05:01:12,545 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 05:01:12,546 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 05:01:12,546 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 05:01:12,553 - __main__ - INFO - Creating RL training environment...
+2025-09-13 05:01:12,554 - __main__ - INFO - Testing simulation environment...
+2025-09-13 05:01:12,554 - __main__ - ERROR - Phase 3 failed: 'EventDrivenTransitSimulator' object has no attribute '_bus_operation_process'
+2025-09-13 05:01:12,554 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 05:01:12,554 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 05:01:12,558 - __main__ - ERROR - Phase 4 failed: 'EventDrivenTransitSimulator' object has no attribute '_bus_operation_process'
+2025-09-13 05:41:03,055 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 05:41:03,055 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 05:41:03,055 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 05:41:03,057 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 05:41:03,063 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 05:41:03,064 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 05:41:03,065 - __main__ - INFO - Setting up traffic API...
+2025-09-13 05:41:03,065 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 05:41:03,066 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 05:41:03,066 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 05:41:03,066 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 05:41:03,066 - __main__ - INFO - Preparing training data...
+2025-09-13 05:41:03,066 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 05:41:03,066 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 05:41:03,066 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 05:41:03,078 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 05:41:03,080 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 05:41:03,085 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 05:41:03,167 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 05:41:03,172 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 05:41:03,174 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 05:41:03,174 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 05:41:03,188 - __main__ - INFO - Creating RL training environment...
+2025-09-13 05:41:03,190 - __main__ - INFO - Testing simulation environment...
+2025-09-13 05:41:03,190 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:41:03,196 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 05:41:03,196 - __main__ - INFO - Simulation test results: None
+2025-09-13 05:41:03,197 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 05:41:03,197 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 05:41:03,197 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 05:41:03,201 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:41:03,205 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 05:41:03,205 - __main__ - ERROR - Phase 4 failed: 'NoneType' object does not support item assignment
+2025-09-13 05:46:22,126 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 05:46:22,126 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 05:46:22,126 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 05:46:22,126 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 05:46:22,127 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 05:46:22,127 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 05:46:22,128 - __main__ - INFO - Setting up traffic API...
+2025-09-13 05:46:22,128 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 05:46:22,128 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 05:46:22,128 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 05:46:22,129 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 05:46:22,129 - __main__ - INFO - Preparing training data...
+2025-09-13 05:46:22,129 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 05:46:22,129 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 05:46:22,130 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 05:46:22,131 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 05:46:22,132 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 05:46:22,135 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 05:46:22,207 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 05:46:22,211 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 05:46:22,212 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 05:46:22,214 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 05:46:22,219 - __main__ - INFO - Creating RL training environment...
+2025-09-13 05:46:22,220 - __main__ - INFO - Testing simulation environment...
+2025-09-13 05:46:22,220 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:46:22,224 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 05:46:22,224 - __main__ - INFO - Simulation test results: {'mean_headway': 87.1877157047536, 'std_headway': 127.126530215134, 'cv_headway': 1.4580784596493663, 'target_headway': 600, 'headway_adherence': 0.14531285950792272, 'bunching_events': 43, 'total_events': 119, 'total_delays': 2520, 'avg_passenger_wait': 136.27408553070242}
+2025-09-13 05:46:22,224 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 05:46:22,224 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 05:46:22,224 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 05:46:22,229 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:46:22,233 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 05:46:22,233 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 05:46:22,237 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:46:22,241 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 05:46:22,241 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 05:46:22,245 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 05:46:22,248 - simulation.event_simulator - INFO - Simulation completed. 115 events recorded
+2025-09-13 05:46:22,248 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 05:46:22,249 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 06:16:56,290 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:16:56,292 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:16:56,292 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:16:56,292 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:16:56,294 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:16:56,295 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:16:56,302 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:16:56,315 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:16:56,344 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:16:56,345 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:16:56,367 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:16:56,378 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:16:57,076 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:16:57,079 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:16:57,109 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:16:57,112 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:16:57,122 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:16:57,128 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:16:57,128 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:16:57,130 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:16:57,238 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:16:57,290 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:16:57,303 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:16:57,303 - main - INFO - Generating comparative analysis...
+2025-09-13 06:16:57,331 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:16:57,364 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:16:57,368 - main - INFO - Generating comparative analysis...
+2025-09-13 06:16:57,371 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:24,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:24,510 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:24,763 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:24,765 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:24,765 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:24,766 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:24,767 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:24,768 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:24,771 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:24,845 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:24,849 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:24,850 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:24,850 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:24,855 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:24,858 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 06:17:24,858 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:24,858 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:25,816 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:25,818 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:25,818 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:25,819 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:25,820 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:25,820 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:25,823 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:25,895 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:25,900 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:25,900 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:25,901 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:25,905 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:25,909 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:17:25,909 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:25,909 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:34,672 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:34,962 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:34,963 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:34,964 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:34,964 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:34,965 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:34,966 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:34,968 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:35,054 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:35,059 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:35,060 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:35,060 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:35,064 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:35,068 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:17:35,068 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:35,068 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:37,578 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:37,858 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:37,879 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:37,886 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:37,887 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:37,901 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:37,913 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:37,931 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:38,315 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:38,336 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:38,344 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:38,345 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:38,383 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:38,415 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:17:38,416 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:38,417 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:45,029 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:45,299 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:45,517 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:45,518 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:45,519 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:45,525 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:45,532 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:45,551 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:45,974 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:45,999 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:46,003 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:46,008 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:46,055 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:46,081 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:17:46,081 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:46,083 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:48,485 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:48,765 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:48,998 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:48,999 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:49,000 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:49,007 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:49,013 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:49,036 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:49,387 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:49,411 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:49,417 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:49,420 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:49,455 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:49,482 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:17:49,486 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:49,488 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:17:51,273 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:17:51,525 - data.realtime_archiver - INFO - Fetched 1063 vehicle positions
+2025-09-13 06:17:51,739 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:17:51,742 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:17:51,743 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:17:51,749 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:17:51,766 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:17:51,783 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:17:52,177 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:17:52,197 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:17:52,202 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:17:52,203 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:17:52,242 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:17:52,264 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:17:52,265 - main - INFO - Generating comparative analysis...
+2025-09-13 06:17:52,265 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:18:05,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:18:05,665 - data.realtime_archiver - INFO - Fetched 281 vehicle positions
+2025-09-13 06:18:05,674 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:18:05,674 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:18:05,674 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:18:05,675 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:18:05,677 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:18:05,678 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:18:05,753 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:18:05,758 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:18:05,758 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:18:05,758 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:18:05,764 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:18:05,767 - simulation.event_simulator - INFO - Simulation completed. 123 events recorded
+2025-09-13 06:18:05,767 - main - INFO - Generating comparative analysis...
+2025-09-13 06:18:05,767 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:18:35,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:18:35,753 - data.realtime_archiver - INFO - Fetched 1083 vehicle positions
+2025-09-13 06:18:35,775 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:18:35,776 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:18:35,776 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:18:35,777 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:18:35,778 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:18:35,781 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:18:35,851 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:18:35,856 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:18:35,857 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:18:35,857 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:18:35,861 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:18:35,865 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:18:35,865 - main - INFO - Generating comparative analysis...
+2025-09-13 06:18:35,865 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:19:05,500 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:19:05,744 - data.realtime_archiver - INFO - Fetched 1100 vehicle positions
+2025-09-13 06:19:05,766 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:19:05,767 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:19:05,767 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:19:05,769 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:19:05,769 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:19:05,772 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:19:05,846 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:19:05,851 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:19:05,851 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:19:05,851 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:19:05,856 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:19:05,859 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:19:05,859 - main - INFO - Generating comparative analysis...
+2025-09-13 06:19:05,859 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:19:35,520 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:19:35,771 - data.realtime_archiver - INFO - Fetched 1100 vehicle positions
+2025-09-13 06:19:35,794 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:19:35,795 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:19:35,795 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:19:35,795 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:19:35,796 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:19:35,798 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:19:35,871 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:19:35,875 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:19:35,876 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:19:35,877 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:19:35,882 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:19:35,886 - simulation.event_simulator - INFO - Simulation completed. 116 events recorded
+2025-09-13 06:19:35,887 - main - INFO - Generating comparative analysis...
+2025-09-13 06:19:35,887 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:19:51,664 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:19:52,108 - data.realtime_archiver - INFO - Fetched 1109 vehicle positions
+2025-09-13 06:19:52,133 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:19:52,133 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:19:52,133 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:19:52,134 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:19:52,135 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:19:52,138 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:19:52,220 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:19:52,224 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:19:52,225 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:19:52,226 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:19:52,230 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:19:52,234 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:19:52,234 - main - INFO - Generating comparative analysis...
+2025-09-13 06:19:52,234 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:19:53,403 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:19:53,888 - data.realtime_archiver - INFO - Fetched 1109 vehicle positions
+2025-09-13 06:19:53,890 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:19:53,890 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:19:53,890 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:19:53,892 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:19:53,893 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:19:53,895 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:19:53,973 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:19:53,978 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:19:53,980 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:19:53,980 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:19:53,983 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:19:53,986 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:19:53,988 - main - INFO - Generating comparative analysis...
+2025-09-13 06:19:53,988 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:19:54,974 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:19:55,283 - data.realtime_archiver - INFO - Fetched 1109 vehicle positions
+2025-09-13 06:19:55,294 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:19:55,294 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:19:55,296 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:19:55,302 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:19:55,308 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:19:55,333 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:19:55,751 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:19:55,778 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:19:55,785 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:19:55,787 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:19:55,826 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:19:55,852 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:19:55,854 - main - INFO - Generating comparative analysis...
+2025-09-13 06:19:55,855 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:20:25,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:20:25,847 - data.realtime_archiver - INFO - Fetched 1108 vehicle positions
+2025-09-13 06:20:25,859 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:20:25,860 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:20:25,865 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:20:25,873 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:20:25,879 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:20:25,897 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:20:26,302 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:20:26,329 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:20:26,339 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:20:26,340 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:20:26,415 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:20:26,438 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 06:20:26,440 - main - INFO - Generating comparative analysis...
+2025-09-13 06:20:26,442 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:20:55,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:20:55,844 - data.realtime_archiver - INFO - Fetched 1051 vehicle positions
+2025-09-13 06:20:55,846 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:20:55,847 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:20:55,847 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:20:55,847 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:20:55,849 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:20:55,850 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:20:55,926 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:20:55,931 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:20:55,931 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:20:55,933 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:20:55,936 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:20:55,939 - simulation.event_simulator - INFO - Simulation completed. 124 events recorded
+2025-09-13 06:20:55,941 - main - INFO - Generating comparative analysis...
+2025-09-13 06:20:55,941 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:21:25,493 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:21:25,765 - data.realtime_archiver - INFO - Fetched 1050 vehicle positions
+2025-09-13 06:21:25,775 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:21:25,777 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:21:25,778 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:21:25,784 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:21:25,790 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:21:25,805 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:21:26,170 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:21:26,209 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:21:26,216 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:21:26,219 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:21:26,289 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:21:26,318 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:21:26,320 - main - INFO - Generating comparative analysis...
+2025-09-13 06:21:26,321 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:21:40,487 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:21:40,850 - data.realtime_archiver - INFO - Fetched 1050 vehicle positions
+2025-09-13 06:21:40,856 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:21:40,858 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:21:40,862 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:21:40,869 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:21:40,878 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:21:40,896 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:21:41,296 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:21:41,334 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:21:41,345 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:21:41,352 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:21:41,403 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:21:41,430 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:21:41,432 - main - INFO - Generating comparative analysis...
+2025-09-13 06:21:41,432 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:21:55,522 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:21:55,856 - data.realtime_archiver - INFO - Fetched 1050 vehicle positions
+2025-09-13 06:21:55,858 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:21:55,858 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:21:55,858 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:21:55,859 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:21:55,861 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:21:55,864 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:21:55,940 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:21:55,945 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:21:55,946 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:21:55,946 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:21:55,951 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:21:55,952 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:21:55,952 - main - INFO - Generating comparative analysis...
+2025-09-13 06:21:55,952 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:22:25,515 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:22:25,643 - data.realtime_archiver - INFO - Fetched 72 vehicle positions
+2025-09-13 06:22:25,645 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:22:25,646 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:22:25,646 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:22:25,647 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:22:25,648 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:22:25,651 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:22:25,724 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:22:25,729 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:22:25,730 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:22:25,731 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:22:25,736 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:22:25,739 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:22:25,739 - main - INFO - Generating comparative analysis...
+2025-09-13 06:22:25,739 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:23:47,999 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 06:23:47,999 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 06:23:47,999 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 06:23:47,999 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 06:23:48,000 - __main__ - ERROR - Phase 1 failed: 'Config' object has no attribute 'OTD_API_KEY'
+2025-09-13 06:23:48,000 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 06:23:48,000 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 06:23:48,000 - __main__ - INFO - Preparing training data...
+2025-09-13 06:23:48,000 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 06:23:48,000 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 06:23:48,000 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 06:23:48,002 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:23:48,003 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:23:48,005 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:23:48,078 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:23:48,082 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:23:48,083 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:23:48,083 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:23:48,089 - __main__ - INFO - Creating RL training environment...
+2025-09-13 06:23:48,090 - __main__ - INFO - Testing simulation environment...
+2025-09-13 06:23:48,090 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:23:48,094 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:23:48,094 - __main__ - INFO - Simulation test results: {'mean_headway': 108.15764035183099, 'std_headway': 123.43373066989966, 'cv_headway': 1.1412391234532888, 'target_headway': 600, 'headway_adherence': 0.18026273391971837, 'bunching_events': 44, 'total_events': 120, 'total_delays': 2580, 'avg_passenger_wait': 124.5125214730583}
+2025-09-13 06:23:48,094 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 06:23:48,094 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:23:48,094 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 06:23:48,099 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:23:48,103 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:23:48,103 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 06:23:48,107 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:23:48,110 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:23:48,110 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 06:23:48,114 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:23:48,118 - simulation.event_simulator - INFO - Simulation completed. 115 events recorded
+2025-09-13 06:23:48,118 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 06:23:48,118 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 06:24:11,352 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:24:11,352 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:24:11,352 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:24:11,356 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:24:11,357 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:24:11,361 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:24:11,434 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:24:11,439 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:24:11,440 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:24:11,440 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:24:11,447 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:24:11,450 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:24:11,450 - main - INFO - Generating comparative analysis...
+2025-09-13 06:24:11,451 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:24:41,525 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:24:41,934 - data.realtime_archiver - INFO - Fetched 1056 vehicle positions
+2025-09-13 06:24:41,948 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:24:41,951 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:24:41,952 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:24:41,961 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:24:41,969 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:24:41,986 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:24:42,397 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:24:42,437 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:24:42,451 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:24:42,455 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:24:42,510 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:24:42,544 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:24:42,544 - main - INFO - Generating comparative analysis...
+2025-09-13 06:24:42,545 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:24:53,916 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:24:54,189 - data.realtime_archiver - INFO - Fetched 1056 vehicle positions
+2025-09-13 06:24:54,199 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:24:54,202 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:24:54,203 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:24:54,208 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:24:54,213 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:24:54,229 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:24:54,663 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:24:54,689 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:24:54,695 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:24:54,696 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:24:54,741 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:24:54,772 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:24:54,773 - main - INFO - Generating comparative analysis...
+2025-09-13 06:24:54,773 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:25:24,461 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:25:24,764 - data.realtime_archiver - INFO - Fetched 1060 vehicle positions
+2025-09-13 06:25:24,775 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:25:24,779 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:25:24,780 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:25:24,791 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:25:24,800 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:25:24,820 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:25:25,220 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:25:25,242 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:25:25,247 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:25:25,248 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:25:25,292 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:25:25,327 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:25:25,331 - main - INFO - Generating comparative analysis...
+2025-09-13 06:25:25,333 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:25:54,518 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:25:56,259 - data.realtime_archiver - INFO - Fetched 1060 vehicle positions
+2025-09-13 06:25:56,271 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:25:56,272 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:25:56,274 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:25:56,280 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:25:56,286 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:25:56,302 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:25:56,727 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:25:56,750 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:25:56,755 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:25:56,757 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:25:56,795 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:25:56,820 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:25:56,822 - main - INFO - Generating comparative analysis...
+2025-09-13 06:25:56,823 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:26:24,508 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:26:24,958 - data.realtime_archiver - INFO - Fetched 1064 vehicle positions
+2025-09-13 06:26:24,967 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:26:24,969 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:26:24,970 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:26:24,975 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:26:24,982 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:26:24,999 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:26:25,398 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:26:25,422 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:26:25,427 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:26:25,436 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:26:25,481 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:26:25,505 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:26:25,507 - main - INFO - Generating comparative analysis...
+2025-09-13 06:26:25,507 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:26:54,516 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:26:54,822 - data.realtime_archiver - INFO - Fetched 1064 vehicle positions
+2025-09-13 06:26:54,837 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:26:54,838 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:26:54,839 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:26:54,844 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:26:54,851 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:26:54,873 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:26:55,337 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:26:55,361 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:26:55,367 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:26:55,368 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:26:55,408 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:26:55,432 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:26:55,433 - main - INFO - Generating comparative analysis...
+2025-09-13 06:26:55,433 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:27:24,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:27:24,894 - data.realtime_archiver - INFO - Fetched 1070 vehicle positions
+2025-09-13 06:27:24,905 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:27:24,906 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:27:24,909 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:27:24,915 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:27:24,922 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:27:24,938 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:27:25,351 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:27:25,379 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:27:25,385 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:27:25,387 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:27:25,435 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:27:25,465 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:27:25,470 - main - INFO - Generating comparative analysis...
+2025-09-13 06:27:25,472 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:27:55,507 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:27:55,838 - data.realtime_archiver - INFO - Fetched 1070 vehicle positions
+2025-09-13 06:27:55,849 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:27:55,851 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:27:55,852 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:27:55,858 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:27:55,864 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:27:55,878 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:27:56,303 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:27:56,325 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:27:56,331 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:27:56,331 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:27:56,369 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:27:56,393 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:27:56,393 - main - INFO - Generating comparative analysis...
+2025-09-13 06:27:56,394 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:28:54,497 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:28:55,735 - data.realtime_archiver - INFO - Fetched 1091 vehicle positions
+2025-09-13 06:28:55,744 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:28:55,746 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:28:55,747 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:28:55,754 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:28:55,760 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:28:55,774 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:28:56,108 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:28:56,129 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:28:56,132 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:28:56,132 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:28:56,157 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:28:56,173 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:28:56,175 - main - INFO - Generating comparative analysis...
+2025-09-13 06:28:56,175 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:29:54,502 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:29:55,486 - data.realtime_archiver - INFO - Fetched 1111 vehicle positions
+2025-09-13 06:29:55,495 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:29:55,496 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:29:55,497 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:29:55,502 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:29:55,508 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:29:55,521 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:29:55,870 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:29:55,886 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:29:55,894 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:29:55,895 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:29:55,928 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:29:55,954 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:29:55,956 - main - INFO - Generating comparative analysis...
+2025-09-13 06:29:55,957 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:30:54,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:30:54,915 - data.realtime_archiver - INFO - Fetched 1117 vehicle positions
+2025-09-13 06:30:54,926 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:30:54,927 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:30:54,928 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:30:54,936 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:30:54,943 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:30:54,958 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:30:55,362 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:30:55,385 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:30:55,389 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:30:55,389 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:30:55,424 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:30:55,449 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:30:55,450 - main - INFO - Generating comparative analysis...
+2025-09-13 06:30:55,450 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:31:56,456 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:31:56,457 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:31:56,458 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:31:56,467 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:31:56,476 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:31:56,492 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:31:56,882 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:31:56,904 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:31:56,909 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:31:56,910 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:31:56,957 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:31:56,982 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:31:56,984 - main - INFO - Generating comparative analysis...
+2025-09-13 06:31:56,986 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:32:24,502 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:32:25,394 - data.realtime_archiver - INFO - Fetched 1256 vehicle positions
+2025-09-13 06:32:25,416 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:32:25,417 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:32:25,419 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:32:25,428 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:32:25,438 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:32:25,459 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:32:25,840 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:32:25,864 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:32:25,869 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:32:25,870 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:32:25,913 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:32:25,941 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:32:25,942 - main - INFO - Generating comparative analysis...
+2025-09-13 06:32:25,943 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:32:54,514 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:32:54,800 - data.realtime_archiver - INFO - Fetched 1255 vehicle positions
+2025-09-13 06:32:54,810 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:32:54,812 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:32:54,813 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:32:54,819 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:32:54,826 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:32:54,842 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:32:55,266 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:32:55,292 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:32:55,298 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:32:55,301 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:32:55,341 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:32:55,367 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:32:55,369 - main - INFO - Generating comparative analysis...
+2025-09-13 06:32:55,373 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:33:24,513 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:33:25,445 - data.realtime_archiver - INFO - Fetched 1293 vehicle positions
+2025-09-13 06:33:25,458 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:33:25,460 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:33:25,461 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:33:25,475 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:33:25,484 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:33:25,512 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:33:25,930 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:33:25,955 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:33:25,960 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:33:25,961 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:33:25,998 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:33:26,024 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:33:26,025 - main - INFO - Generating comparative analysis...
+2025-09-13 06:33:26,025 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:33:54,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:33:55,160 - data.realtime_archiver - INFO - Fetched 1293 vehicle positions
+2025-09-13 06:33:55,161 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:33:55,163 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:33:55,163 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:33:55,165 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:33:55,165 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:33:55,168 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:33:55,242 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:33:55,246 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:33:55,248 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:33:55,248 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:33:55,252 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:33:55,255 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:33:55,255 - main - INFO - Generating comparative analysis...
+2025-09-13 06:33:55,257 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:34:26,054 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:34:26,055 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:34:26,055 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:34:26,067 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:34:26,074 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:34:26,095 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:34:26,164 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:34:26,469 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:34:26,518 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:34:26,524 - data.realtime_archiver - INFO - Fetched 1321 vehicle positions
+2025-09-13 06:34:26,527 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:34:26,532 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:34:26,540 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:34:26,542 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:34:26,547 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:34:26,568 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:34:26,591 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:34:26,620 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:34:26,624 - main - INFO - Generating comparative analysis...
+2025-09-13 06:34:26,624 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:34:26,625 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:34:26,657 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:34:27,080 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:34:27,102 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:34:27,107 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:34:27,109 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:34:27,152 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:34:27,182 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:34:27,184 - main - INFO - Generating comparative analysis...
+2025-09-13 06:34:27,185 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:34:56,502 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:34:57,044 - data.realtime_archiver - INFO - Fetched 1321 vehicle positions
+2025-09-13 06:34:57,059 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:34:57,062 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:34:57,066 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:34:57,076 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:34:57,086 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:34:57,107 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:34:57,574 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:34:57,602 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:34:57,607 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:34:57,607 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:34:57,644 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:34:57,667 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:34:57,668 - main - INFO - Generating comparative analysis...
+2025-09-13 06:34:57,668 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:35:26,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:35:26,821 - data.realtime_archiver - INFO - Fetched 1328 vehicle positions
+2025-09-13 06:35:26,842 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:35:26,845 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:35:26,851 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:35:26,864 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:35:26,881 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:35:26,898 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:35:27,274 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:35:27,297 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:35:27,301 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:35:27,302 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:35:27,340 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:35:27,365 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:35:27,366 - main - INFO - Generating comparative analysis...
+2025-09-13 06:35:27,369 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:35:28,485 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:35:28,792 - data.realtime_archiver - INFO - Fetched 1328 vehicle positions
+2025-09-13 06:35:28,802 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:35:28,804 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:35:28,805 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:35:28,815 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:35:28,821 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:35:28,842 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:35:29,230 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:35:29,252 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:35:29,257 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:35:29,258 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:35:29,284 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:35:29,304 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 06:35:29,305 - main - INFO - Generating comparative analysis...
+2025-09-13 06:35:29,306 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:35:32,740 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:35:33,118 - data.realtime_archiver - INFO - Fetched 1328 vehicle positions
+2025-09-13 06:35:33,131 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:35:33,132 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:35:33,134 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:35:33,141 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:35:33,147 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:35:33,163 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:35:33,540 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:35:33,568 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:35:33,576 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:35:33,578 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:35:33,615 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:35:33,638 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:35:33,639 - main - INFO - Generating comparative analysis...
+2025-09-13 06:35:33,640 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:35:39,106 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:35:39,399 - data.realtime_archiver - INFO - Fetched 1328 vehicle positions
+2025-09-13 06:35:39,405 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:35:39,406 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:35:39,407 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:35:39,413 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:35:39,420 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:35:39,436 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:35:39,827 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:35:39,858 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:35:39,874 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:35:39,881 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:35:39,942 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:35:39,965 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:35:39,966 - main - INFO - Generating comparative analysis...
+2025-09-13 06:35:39,967 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:36:03,511 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:36:03,849 - data.realtime_archiver - INFO - Fetched 1329 vehicle positions
+2025-09-13 06:36:03,861 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:03,862 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:03,863 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:36:03,870 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:03,877 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:03,897 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:04,300 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:04,324 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:04,329 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:04,331 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:04,372 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:04,400 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:36:04,402 - main - INFO - Generating comparative analysis...
+2025-09-13 06:36:04,402 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:36:25,984 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:25,986 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 06:36:25,986 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 06:36:25,986 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 06:36:25,986 - __main__ - ERROR - Phase 1 failed: 'Config' object has no attribute 'OTD_API_KEY'
+2025-09-13 06:36:25,986 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 06:36:25,986 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 06:36:25,986 - __main__ - INFO - Preparing training data...
+2025-09-13 06:36:25,986 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 06:36:25,986 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 06:36:25,986 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 06:36:25,987 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:25,989 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:25,990 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:26,064 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:26,069 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:26,070 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:26,070 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:26,077 - __main__ - INFO - Creating RL training environment...
+2025-09-13 06:36:26,077 - __main__ - INFO - Testing simulation environment...
+2025-09-13 06:36:26,077 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:26,081 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:36:26,081 - __main__ - INFO - Simulation test results: {'mean_headway': 51.80042661685335, 'std_headway': 49.19819125649789, 'cv_headway': 0.9497642098663949, 'target_headway': 600, 'headway_adherence': 0.08633404436142222, 'bunching_events': 48, 'total_events': 120, 'total_delays': 2940, 'avg_passenger_wait': 49.263553931218425}
+2025-09-13 06:36:26,081 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 06:36:26,081 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:26,081 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 06:36:26,087 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:26,090 - simulation.event_simulator - INFO - Simulation completed. 123 events recorded
+2025-09-13 06:36:26,090 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 06:36:26,095 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:26,098 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:36:26,100 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 06:36:26,105 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:26,106 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:36:26,108 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 06:36:26,108 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 06:36:33,523 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:36:33,779 - data.realtime_archiver - INFO - Fetched 1339 vehicle positions
+2025-09-13 06:36:33,781 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:33,781 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:33,781 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:36:33,782 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:33,783 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:33,785 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:33,855 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:33,860 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:33,861 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:33,861 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:33,867 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:33,870 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:36:33,870 - main - INFO - Generating comparative analysis...
+2025-09-13 06:36:33,870 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:36:38,926 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:36:39,215 - data.realtime_archiver - INFO - Fetched 1339 vehicle positions
+2025-09-13 06:36:39,217 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:39,217 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:39,217 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:36:39,219 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:39,219 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:39,222 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:39,292 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:39,297 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:39,298 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:39,298 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:39,304 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:39,307 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:36:39,307 - main - INFO - Generating comparative analysis...
+2025-09-13 06:36:39,307 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:36:44,103 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:36:44,433 - data.realtime_archiver - INFO - Fetched 1339 vehicle positions
+2025-09-13 06:36:44,443 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:44,447 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:44,449 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:36:44,455 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:44,462 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:44,479 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:44,915 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:44,940 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:44,945 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:44,947 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:44,981 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:45,002 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:36:45,005 - main - INFO - Generating comparative analysis...
+2025-09-13 06:36:45,008 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:36:48,673 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:36:48,944 - data.realtime_archiver - INFO - Fetched 1339 vehicle positions
+2025-09-13 06:36:49,224 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:36:49,226 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:36:49,227 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:36:49,231 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:36:49,236 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:36:49,250 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:36:49,655 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:36:49,676 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:36:49,681 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:36:49,683 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:36:49,715 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:36:49,740 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:36:49,743 - main - INFO - Generating comparative analysis...
+2025-09-13 06:36:49,744 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:37:08,930 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:37:09,262 - data.realtime_archiver - INFO - Fetched 1339 vehicle positions
+2025-09-13 06:37:09,540 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:37:09,542 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:37:09,543 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:37:09,563 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:37:09,579 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:37:09,620 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:37:10,027 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:37:10,054 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:37:10,059 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:37:10,060 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:37:10,102 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:37:10,128 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:37:10,131 - main - INFO - Generating comparative analysis...
+2025-09-13 06:37:10,131 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:37:39,516 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:37:39,868 - data.realtime_archiver - INFO - Fetched 1350 vehicle positions
+2025-09-13 06:37:39,897 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:37:39,897 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:37:39,897 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:37:39,897 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:37:39,898 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:37:39,901 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:37:39,973 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:37:39,978 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:37:39,978 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:37:39,978 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:37:39,983 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:37:39,986 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 06:37:39,988 - main - INFO - Generating comparative analysis...
+2025-09-13 06:37:39,988 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:38:09,530 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:38:09,814 - data.realtime_archiver - INFO - Fetched 1350 vehicle positions
+2025-09-13 06:38:10,118 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:38:10,118 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:38:10,120 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:38:10,127 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:38:10,134 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:38:10,152 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:38:10,568 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:38:10,587 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:38:10,591 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:38:10,592 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:38:10,628 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:38:10,655 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:38:10,657 - main - INFO - Generating comparative analysis...
+2025-09-13 06:38:10,658 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:38:39,505 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:38:39,625 - data.realtime_archiver - INFO - Fetched 45 vehicle positions
+2025-09-13 06:38:39,642 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:38:39,642 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:38:39,646 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:38:39,654 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:38:39,663 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:38:39,683 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:38:40,078 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:38:40,100 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:38:40,107 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:38:40,108 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:38:40,149 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:38:40,178 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:38:40,179 - main - INFO - Generating comparative analysis...
+2025-09-13 06:38:40,180 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:39:09,517 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:39:09,846 - data.realtime_archiver - INFO - Fetched 1372 vehicle positions
+2025-09-13 06:39:10,155 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:39:10,157 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:39:10,160 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:39:10,167 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:39:10,180 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:39:10,198 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:39:10,514 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:39:10,538 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:39:10,543 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:39:10,543 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:39:10,583 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:39:10,617 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:39:10,618 - main - INFO - Generating comparative analysis...
+2025-09-13 06:39:10,619 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:39:40,504 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:39:40,912 - data.realtime_archiver - INFO - Fetched 1395 vehicle positions
+2025-09-13 06:39:41,204 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:39:41,208 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:39:41,225 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:39:41,242 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:39:41,257 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:39:41,282 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:39:41,712 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:39:41,739 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:39:41,745 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:39:41,748 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:39:41,795 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:39:41,829 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:39:41,831 - main - INFO - Generating comparative analysis...
+2025-09-13 06:39:41,832 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:40:24,650 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:40:25,058 - data.realtime_archiver - INFO - Fetched 1401 vehicle positions
+2025-09-13 06:40:25,336 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:40:25,337 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:40:25,337 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:40:25,348 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:40:25,354 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:40:25,371 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:40:25,756 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:40:25,780 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:40:25,784 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:40:25,785 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:40:25,817 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:40:25,844 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:40:25,845 - main - INFO - Generating comparative analysis...
+2025-09-13 06:40:25,846 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:40:38,936 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:40:40,051 - data.realtime_archiver - INFO - Fetched 1400 vehicle positions
+2025-09-13 06:40:40,305 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:40:40,308 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:40:40,311 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:40:40,320 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:40:40,329 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:40:40,350 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:40:40,739 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:40:40,757 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:40:40,762 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:40:40,762 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:40:40,794 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:40:40,819 - simulation.event_simulator - INFO - Simulation completed. 124 events recorded
+2025-09-13 06:40:40,820 - main - INFO - Generating comparative analysis...
+2025-09-13 06:40:40,821 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:41:10,517 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:41:10,844 - data.realtime_archiver - INFO - Fetched 1398 vehicle positions
+2025-09-13 06:41:11,111 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:41:11,112 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:41:11,112 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:41:11,118 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:41:11,125 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:41:11,145 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:41:11,590 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:41:11,618 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:41:11,623 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:41:11,625 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:41:11,666 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:41:11,695 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:41:11,697 - main - INFO - Generating comparative analysis...
+2025-09-13 06:41:11,697 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:41:40,506 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:41:40,830 - data.realtime_archiver - INFO - Fetched 1336 vehicle positions
+2025-09-13 06:41:41,087 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:41:41,088 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:41:41,088 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:41:41,097 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:41:41,103 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:41:41,129 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:41:41,502 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:41:41,522 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:41:41,528 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:41:41,529 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:41:41,562 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:41:41,585 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:41:41,586 - main - INFO - Generating comparative analysis...
+2025-09-13 06:41:41,587 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:42:54,499 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:42:55,498 - data.realtime_archiver - INFO - Fetched 1295 vehicle positions
+2025-09-13 06:42:55,589 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:42:55,589 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:42:55,590 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:42:55,592 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:42:55,594 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:42:55,601 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:42:55,814 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:42:55,845 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:42:55,858 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:42:55,860 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:42:55,874 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:42:55,887 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:42:55,887 - main - INFO - Generating comparative analysis...
+2025-09-13 06:42:55,888 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:43:54,490 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:43:55,010 - data.realtime_archiver - INFO - Fetched 1334 vehicle positions
+2025-09-13 06:43:55,038 - main - INFO - Bus Rationalization System initialized
+2025-09-13 06:43:55,038 - main - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:43:55,038 - main - INFO - Evaluating baseline controller...
+2025-09-13 06:43:55,040 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:43:55,040 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:43:55,043 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:43:55,116 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:43:55,119 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:43:55,121 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:43:55,121 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:43:55,125 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:43:55,129 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:43:55,129 - main - INFO - Generating comparative analysis...
+2025-09-13 06:43:55,129 - main - INFO - Phase 4 completed successfully
+2025-09-13 06:49:51,207 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 06:49:51,207 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 06:49:51,208 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 06:49:51,208 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 06:49:51,208 - __main__ - ERROR - Phase 1 failed: 'Config' object has no attribute 'OTD_API_KEY'
+2025-09-13 06:49:51,208 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 06:49:51,208 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 06:49:51,208 - __main__ - INFO - Preparing training data...
+2025-09-13 06:49:51,208 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 06:49:51,208 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 06:49:51,208 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 06:49:51,210 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:49:51,211 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:49:51,214 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:49:51,290 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:49:51,295 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:49:51,296 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:49:51,296 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:49:51,302 - __main__ - INFO - Creating RL training environment...
+2025-09-13 06:49:51,303 - __main__ - INFO - Testing simulation environment...
+2025-09-13 06:49:51,303 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:51,306 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:49:51,307 - __main__ - INFO - Simulation test results: {'mean_headway': 58.125141326153994, 'std_headway': 51.3506214377624, 'cv_headway': 0.8834494035828979, 'target_headway': 600, 'headway_adherence': 0.09687523554359001, 'bunching_events': 48, 'total_events': 120, 'total_delays': 2820, 'avg_passenger_wait': 51.74540860447817}
+2025-09-13 06:49:51,307 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 06:49:51,307 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:49:51,307 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 06:49:51,312 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:51,316 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 06:49:51,316 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 06:49:51,321 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:51,324 - simulation.event_simulator - INFO - Simulation completed. 123 events recorded
+2025-09-13 06:49:51,324 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 06:49:51,329 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:49:51,332 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 06:49:51,332 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 06:49:51,333 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 06:55:04,586 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 06:55:04,586 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 06:55:04,586 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 06:55:04,586 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 06:55:04,587 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 06:55:04,587 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 06:55:04,589 - __main__ - INFO - Setting up traffic API...
+2025-09-13 06:55:04,589 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 06:55:04,589 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 06:55:04,589 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 06:55:04,589 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 06:55:04,589 - __main__ - INFO - Preparing training data...
+2025-09-13 06:55:04,589 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 06:55:04,589 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 06:55:04,591 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 06:55:04,592 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 06:55:04,592 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 06:55:04,596 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 06:55:04,670 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 06:55:04,675 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 06:55:04,676 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 06:55:04,676 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 06:55:04,683 - __main__ - INFO - Creating RL training environment...
+2025-09-13 06:55:04,683 - __main__ - INFO - Testing simulation environment...
+2025-09-13 06:55:04,683 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:04,687 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:55:04,687 - __main__ - INFO - Simulation test results: {'mean_headway': 88.66311921849267, 'std_headway': 92.07014206224851, 'cv_headway': 1.038426607069394, 'target_headway': 600, 'headway_adherence': 0.14777186536415443, 'bunching_events': 45, 'total_events': 119, 'total_delays': 2520, 'avg_passenger_wait': 92.13560222629523}
+2025-09-13 06:55:04,687 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 06:55:04,687 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 06:55:04,687 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 06:55:04,691 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:04,694 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 06:55:04,694 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 06:55:04,699 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:04,702 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 06:55:04,702 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 06:55:04,707 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 06:55:04,712 - simulation.event_simulator - INFO - Simulation completed. 114 events recorded
+2025-09-13 06:55:04,712 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 06:55:04,712 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 07:51:48,080 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 07:51:48,081 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 07:51:48,081 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 07:51:48,081 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 07:51:48,083 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 07:51:48,083 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 07:51:48,083 - __main__ - INFO - Setting up traffic API...
+2025-09-13 07:51:48,083 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 07:51:48,084 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 07:51:48,084 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 07:51:48,084 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 07:51:48,085 - __main__ - INFO - Preparing training data...
+2025-09-13 07:51:48,085 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 07:51:48,085 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 07:51:48,085 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 07:51:48,101 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 07:51:48,105 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 07:51:48,109 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 07:51:48,205 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 07:51:48,210 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 07:51:48,211 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 07:51:48,211 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 07:51:48,226 - __main__ - INFO - Creating RL training environment...
+2025-09-13 07:51:48,231 - __main__ - INFO - Testing simulation environment...
+2025-09-13 07:51:48,231 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:51:48,237 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 07:51:48,238 - __main__ - INFO - Simulation test results: {'mean_headway': 74.74344966393981, 'std_headway': 92.4354628779841, 'cv_headway': 1.2367031933044408, 'target_headway': 600, 'headway_adherence': 0.12457241610656633, 'bunching_events': 43, 'total_events': 118, 'total_delays': 2460, 'avg_passenger_wait': 94.5293408898584}
+2025-09-13 07:51:48,238 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 07:51:48,238 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 07:51:48,238 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 07:51:48,243 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:51:48,246 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 07:51:48,247 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 07:51:48,251 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:51:48,254 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 07:51:48,254 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 07:51:48,258 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 07:51:48,261 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 07:51:48,261 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 07:51:48,261 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 09:12:14,617 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 09:12:14,617 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 09:12:14,617 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 09:12:14,617 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 09:12:14,619 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 09:12:14,619 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 09:12:14,620 - __main__ - INFO - Setting up traffic API...
+2025-09-13 09:12:14,620 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 09:12:14,620 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 09:12:14,620 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 09:12:14,620 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 09:12:14,620 - __main__ - INFO - Preparing training data...
+2025-09-13 09:12:14,621 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 09:12:14,621 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 09:12:14,623 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 09:12:14,628 - data.realtime_archiver - ERROR - Network error fetching real-time data: HTTPSConnectionPool(host='otd.delhi.gov.in', port=443): Max retries exceeded with url: /api/realtime/VehiclePositions.pb?key=L5jVvGl6iLEdSqnZG42pEm5LD94t1PYF (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024C644BD650>: Failed to resolve 'otd.delhi.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2025-09-13 09:12:14,631 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 09:12:14,634 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 09:12:14,639 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 09:12:14,761 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 09:12:14,768 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 09:12:14,769 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 09:12:14,770 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 09:12:14,784 - __main__ - INFO - Creating RL training environment...
+2025-09-13 09:12:14,786 - __main__ - INFO - Testing simulation environment...
+2025-09-13 09:12:14,786 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 09:12:14,792 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 09:12:14,793 - __main__ - INFO - Simulation test results: {'mean_headway': 103.0158166325689, 'std_headway': 125.01311541306795, 'cv_headway': 1.2135332175151103, 'target_headway': 600, 'headway_adherence': 0.1716930277209482, 'bunching_events': 41, 'total_events': 118, 'total_delays': 2400, 'avg_passenger_wait': 127.36169240568853}
+2025-09-13 09:12:14,793 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 09:12:14,793 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 09:12:14,793 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 09:12:14,800 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 09:12:14,807 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 09:12:14,808 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 09:12:14,814 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 09:12:14,821 - simulation.event_simulator - INFO - Simulation completed. 125 events recorded
+2025-09-13 09:12:14,821 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 09:12:14,833 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 09:12:14,839 - simulation.event_simulator - INFO - Simulation completed. 115 events recorded
+2025-09-13 09:12:14,839 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 09:12:14,839 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 10:13:58,590 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 10:13:58,592 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 10:13:58,592 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 10:13:58,592 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 10:13:58,594 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 10:13:58,595 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 10:13:58,596 - __main__ - INFO - Setting up traffic API...
+2025-09-13 10:13:58,596 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 10:13:58,597 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 10:13:58,597 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 10:13:58,597 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 10:13:58,598 - __main__ - INFO - Preparing training data...
+2025-09-13 10:13:58,598 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 10:13:58,598 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 10:13:58,598 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 10:13:58,604 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 10:13:58,606 - data.realtime_archiver - ERROR - Network error fetching real-time data (attempt 1): HTTPSConnectionPool(host='otd.delhi.gov.in', port=443): Max retries exceeded with url: /api/realtime/VehiclePositions.pb?key=L5jVvGl6iLEdSqnZG42pEm5LD94t1PYF (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000124198E6E50>: Failed to resolve 'otd.delhi.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2025-09-13 10:13:58,611 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 10:13:58,619 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 10:13:58,775 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 10:13:58,784 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 10:13:58,786 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 10:13:58,786 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 10:13:58,808 - __main__ - INFO - Creating RL training environment...
+2025-09-13 10:13:58,811 - __main__ - INFO - Testing simulation environment...
+2025-09-13 10:13:58,811 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:13:58,819 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 10:13:58,819 - __main__ - INFO - Simulation test results: {'mean_headway': 167.73505858150043, 'std_headway': 497.4028333743856, 'cv_headway': 2.9654076946156347, 'target_headway': 600, 'headway_adherence': 0.2795584309691673, 'bunching_events': 44, 'total_events': 122, 'total_delays': 2640, 'avg_passenger_wait': 821.3686239967609}
+2025-09-13 10:13:58,820 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 10:13:58,820 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 10:13:58,821 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 10:13:58,832 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:13:58,839 - simulation.event_simulator - INFO - Simulation completed. 122 events recorded
+2025-09-13 10:13:58,840 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 10:13:58,850 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:13:58,857 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 10:13:58,857 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 10:13:58,867 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:13:58,876 - simulation.event_simulator - INFO - Simulation completed. 115 events recorded
+2025-09-13 10:13:58,876 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 10:13:58,877 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 10:50:45,469 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 10:50:45,469 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 10:50:45,469 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 10:50:45,469 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 10:50:45,471 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 10:50:45,472 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 10:50:45,472 - __main__ - INFO - Setting up traffic API...
+2025-09-13 10:50:45,472 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 10:50:45,473 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 10:50:45,473 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 10:50:45,473 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 10:50:45,473 - __main__ - INFO - Preparing training data...
+2025-09-13 10:50:45,475 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 10:50:45,475 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 10:50:45,480 - data.realtime_archiver - ERROR - Network error fetching real-time data (attempt 1): HTTPSConnectionPool(host='otd.delhi.gov.in', port=443): Max retries exceeded with url: /api/realtime/VehiclePositions.pb?key=L5jVvGl6iLEdSqnZG42pEm5LD94t1PYF (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002987284D6D0>: Failed to resolve 'otd.delhi.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2025-09-13 10:50:45,480 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 10:50:45,492 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 10:50:45,494 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 10:50:45,501 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 10:50:45,654 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 10:50:45,663 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 10:50:45,665 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 10:50:45,666 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 10:50:45,695 - __main__ - INFO - Creating RL training environment...
+2025-09-13 10:50:45,695 - __main__ - INFO - Testing simulation environment...
+2025-09-13 10:50:45,697 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:50:45,707 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 10:50:45,708 - __main__ - INFO - Simulation test results: {'mean_headway': 85.08197458908195, 'std_headway': 111.39496533896208, 'cv_headway': 1.3092663384572731, 'target_headway': 600, 'headway_adherence': 0.14180329098180322, 'bunching_events': 44, 'total_events': 120, 'total_delays': 2700, 'avg_passenger_wait': 115.46382649049983}
+2025-09-13 10:50:45,708 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 10:50:45,708 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 10:50:45,709 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 10:50:45,719 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:50:45,727 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 10:50:45,727 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 10:50:45,750 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:50:45,781 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 10:50:45,782 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 10:50:45,793 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 10:50:45,801 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 10:50:45,801 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 10:50:45,801 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 12:05:09,172 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 12:05:09,173 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 12:05:09,173 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 12:05:09,173 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 12:05:09,174 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 12:05:09,175 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 12:05:09,175 - __main__ - INFO - Setting up traffic API...
+2025-09-13 12:05:09,176 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 12:05:09,176 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 12:05:09,177 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 12:05:09,178 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 12:05:09,178 - __main__ - INFO - Preparing training data...
+2025-09-13 12:05:09,178 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 12:05:09,178 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 12:05:09,181 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 12:05:09,188 - data.realtime_archiver - ERROR - Network error fetching real-time data (attempt 1): HTTPSConnectionPool(host='otd.delhi.gov.in', port=443): Max retries exceeded with url: /api/realtime/VehiclePositions.pb?key=L5jVvGl6iLEdSqnZG42pEm5LD94t1PYF (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D6DE61450>: Failed to resolve 'otd.delhi.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2025-09-13 12:05:09,194 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 12:05:09,196 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 12:05:09,202 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 12:05:09,322 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 12:05:09,329 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 12:05:09,331 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 12:05:09,331 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 12:05:09,347 - __main__ - INFO - Creating RL training environment...
+2025-09-13 12:05:09,349 - __main__ - INFO - Testing simulation environment...
+2025-09-13 12:05:09,349 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 12:05:09,355 - simulation.event_simulator - INFO - Simulation completed. 121 events recorded
+2025-09-13 12:05:09,356 - __main__ - INFO - Simulation test results: {'mean_headway': 77.13858215150223, 'std_headway': 74.15965107487388, 'cv_headway': 0.9613820867127469, 'target_headway': 600, 'headway_adherence': 0.12856430358583704, 'bunching_events': 47, 'total_events': 121, 'total_delays': 2520, 'avg_passenger_wait': 74.21717112587685}
+2025-09-13 12:05:09,356 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 12:05:09,356 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 12:05:09,356 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 12:05:09,364 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 12:05:09,380 - simulation.event_simulator - INFO - Simulation completed. 118 events recorded
+2025-09-13 12:05:09,387 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 12:05:09,399 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 12:05:09,437 - simulation.event_simulator - INFO - Simulation completed. 124 events recorded
+2025-09-13 12:05:09,438 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 12:05:09,445 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 12:05:09,457 - simulation.event_simulator - INFO - Simulation completed. 117 events recorded
+2025-09-13 12:05:09,457 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 12:05:09,457 - __main__ - INFO - Phase 4 completed successfully
+2025-09-13 13:32:55,301 - __main__ - INFO - Bus Rationalization System initialized
+2025-09-13 13:32:55,302 - __main__ - INFO - === PHASE 1: Data Foundation and Baseline MVP ===
+2025-09-13 13:32:55,302 - __main__ - INFO - Processing GTFS static data...
+2025-09-13 13:32:55,302 - __main__ - INFO - Initializing real-time data archiver...
+2025-09-13 13:32:55,304 - data.realtime_archiver - INFO - Database initialized successfully
+2025-09-13 13:32:55,305 - data.realtime_archiver - INFO - Real-time data archiving started
+2025-09-13 13:32:55,306 - __main__ - INFO - Setting up traffic API...
+2025-09-13 13:32:55,306 - __main__ - INFO - Creating baseline rule-based controller...
+2025-09-13 13:32:55,306 - __main__ - INFO - Phase 1 completed successfully
+2025-09-13 13:32:55,307 - __main__ - INFO - === PHASE 2: Predictive Augmentation ===
+2025-09-13 13:32:55,308 - __main__ - INFO - Initializing XGBoost predictor...
+2025-09-13 13:32:55,308 - __main__ - INFO - Preparing training data...
+2025-09-13 13:32:55,308 - __main__ - INFO - Phase 2 completed successfully
+2025-09-13 13:32:55,309 - __main__ - INFO - === PHASE 3: RL Development via Simulation ===
+2025-09-13 13:32:55,310 - __main__ - INFO - Building event-driven simulator...
+2025-09-13 13:32:55,311 - data.realtime_archiver - ERROR - Network error fetching real-time data (attempt 1): HTTPSConnectionPool(host='otd.delhi.gov.in', port=443): Max retries exceeded with url: /api/realtime/VehiclePositions.pb?key=L5jVvGl6iLEdSqnZG42pEm5LD94t1PYF (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000029F0F903B90>: Failed to resolve 'otd.delhi.gov.in' ([Errno 11001] getaddrinfo failed)"))
+2025-09-13 13:32:55,313 - data.gtfs_processor - INFO - Loaded stops.txt
+2025-09-13 13:32:55,316 - data.gtfs_processor - INFO - Loaded routes.txt
+2025-09-13 13:32:55,323 - data.gtfs_processor - INFO - Loaded trips.txt
+2025-09-13 13:32:55,480 - data.gtfs_processor - INFO - Loaded stop_times.txt
+2025-09-13 13:32:55,490 - data.gtfs_processor - INFO - Loaded shapes.txt
+2025-09-13 13:32:55,495 - data.gtfs_processor - INFO - Loaded calendar.txt
+2025-09-13 13:32:55,498 - data.gtfs_processor - INFO - GTFSProcessor: Proceeded with real GTFS data.
+2025-09-13 13:32:55,513 - __main__ - INFO - Creating RL training environment...
+2025-09-13 13:32:55,514 - __main__ - INFO - Testing simulation environment...
+2025-09-13 13:32:55,515 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 13:32:55,525 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 13:32:55,525 - __main__ - INFO - Simulation test results: {'mean_headway': 83.56425116440217, 'std_headway': 132.47208102401126, 'cv_headway': 1.5852721609793294, 'target_headway': 600, 'headway_adherence': 0.13927375194067038, 'bunching_events': 42, 'total_events': 119, 'total_delays': 2520, 'avg_passenger_wait': 146.78427665938264}
+2025-09-13 13:32:55,525 - __main__ - INFO - Phase 3 completed successfully
+2025-09-13 13:32:55,526 - __main__ - INFO - === PHASE 4: Comparative Evaluation ===
+2025-09-13 13:32:55,526 - __main__ - INFO - Evaluating baseline controller...
+2025-09-13 13:32:55,538 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 13:32:55,546 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 13:32:55,546 - __main__ - INFO - Evaluating ML-enhanced controller...
+2025-09-13 13:32:55,556 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 13:32:55,564 - simulation.event_simulator - INFO - Simulation completed. 120 events recorded
+2025-09-13 13:32:55,564 - __main__ - INFO - Evaluating RL controller...
+2025-09-13 13:32:55,573 - simulation.event_simulator - INFO - Starting simulation for 3600 seconds
+2025-09-13 13:32:55,581 - simulation.event_simulator - INFO - Simulation completed. 119 events recorded
+2025-09-13 13:32:55,581 - __main__ - INFO - Generating comparative analysis...
+2025-09-13 13:32:55,582 - __main__ - INFO - Phase 4 completed successfully
