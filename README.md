@@ -434,9 +434,9 @@ If you use this code in your research, please cite:
 ```bibtex
 @misc{bus_rationalization_2024,
   title={Dynamic Bus Service Rationalization: A Phased Machine Learning Approach},
-  author={Your Name},
-  year={2024},
-  howpublished={\url{https://github.com/your-repo/bus-rationalization}}
+  author={Gourav Sahu},
+  year={2025},
+  howpublished={\url{https://github.com/binaryecheos/dtc-route-rationalization}}
 }
 ```
 
@@ -450,8 +450,8 @@ If you use this code in your research, please cite:
 ## Contact
 
 For questions or support, please contact:
-- Email: your.email@domain.com
-- GitHub: @your-username
+- Email: gourav.sahu.1695@gmail.com
+- GitHub: @binaryecheos
 
 ## Roadmap
 
@@ -472,4 +472,3 @@ For questions or support, please contact:
 
 ---
 
-*This README provides comprehensive documentation for the Dynamic Bus Service Rationalization system. For detailed technical documentation, see the individual module docstrings and code comments.*
